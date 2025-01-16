@@ -130,7 +130,7 @@ $(function() {
 			name: 'General',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Neighborhoods',
+					name: 'Bairro',
 					icon: 'radar/radar_warehouse.png',
 					enabled: false,
 					url: 'data/neighborhoods.json',
