@@ -133,7 +133,7 @@ $(function() {
 					name: 'Bairro',
 					icon: 'radar/radar_warehouse.png',
 					enabled: false,
-					url: 'data/neighborhoods.json',
+					url: 'data/Bairro.json',
 				}),
 				new CategoryModel({
 					name: 'Neutral',
