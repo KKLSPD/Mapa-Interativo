@@ -1,19 +1,16 @@
 [
 	{
-		"title": "Crapphuise Apartments",
-		"notes": "The Apartments is where new players wake up.",
+		"title": "Bar The Angels MC",
+		"notes": "Churrasco de qualidade.",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Alta_Street_Projects",
 		"order": 0,
 		"strokecolor": "222222",
 		"fillcolor": "0080FF",
 		"latlngarray": [
-			{"lat": -67.476, "lng": -33.023},
-			{"lat": -69.062, "lng": -33.056},
-			{"lat": -69.308, "lng": -34.056},
-			{"lat": -68.425, "lng": -35.682},
-			{"lat": -68.193, "lng": -34.638},
-			{"lat": -67.984, "lng": -33.946},
-			{"lat": -67.836, "lng": -33.507}
+			{"lat": 29.277, "lng": 44.261},
+			{"lat": 28.459, "lng": 43.624},
+			{"lat": 27.674, "lng": 44.745},
+			{"lat": 28.672, "lng": 45.525}
 		]
 	},
 	{
