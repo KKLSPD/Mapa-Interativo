@@ -33,24 +33,23 @@
 		]
 	},
 	{
-		"title": "Impound Lot",
-		"notes": "Where cars go when they get impounded.",
+		"title": "Impound",
+		"notes": "Onde os carros são apreendidos",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
 		"latlngarray": [
-			{"lat": -70.814, "lng": -22.400},
-			{"lat": -71.398, "lng": -22.444},
-			{"lat": -71.384, "lng": -21.818},
-			{"lat": -71.433, "lng": -21.466},
-			{"lat": -71.108, "lng": -19.873},
-			{"lat": -70.800, "lng": -20.434}
+			{"lat": -73.320, "lng": -2.176},
+			{"lat": -73.082, "lng": -3.198},
+			{"lat": -73.308, "lng": -3.890},
+			{"lat": -73.552, "lng": -2.726}
+			
 		]
 	},
 	{
-		"title": "Mission Row PD",
+		"title": "Mission Row",
 		"notes": "The Los Santos Police Department, along with the Sheriff's Office, makes up the executive branch of Los Santos; together they ensure that the law is upheld and enforced.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Los_Santos_Police_Department",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -62,9 +61,9 @@
 		]
 	},
 	{
-		"title": "PBSO",
+		"title": "Departamento de Paleto",
 		"notes": "Paleto Bay Sheriff's Office headquarters.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Paleto_Bay_Sheriff%27s_Office",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -81,9 +80,9 @@
 		]
 	},
 	{
-		"title": "SDSO",
+		"title": "Departamento de Sandy Shores",
 		"notes": "The Senora Desert Sheriff's Office ensures crime is upheld and enforced.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Senora_Desert_Sheriff's_Office",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -95,19 +94,33 @@
 		]
 	},
 	{
-		"title": "The Courthouse",
+		"title": "Departamento de Justiça",
 		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Department_of_Justice",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
 		"latlngarray": [
-			{"lat": -72.999, "lng": -8.914},
-			{"lat": -74.103, "lng": -4.343},
-			{"lat": -73.574, "lng": -2.772},
-			{"lat": -73.073, "lng": -5.222},
-			{"lat": -72.747, "lng": -4.497},
-			{"lat": -72.438, "lng": -5.673}
+			{"lat": -57.603, "lng": -31.136},
+			{"lat": -56.156, "lng": -32.674},
+			{"lat": -55.484, "lng": -29.930},
+			{"lat": -56.944, "lng": -28.304}
+			
+		]
+	},{
+		"title": "N.O.O.S.E",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -59.260, "lng": 54.562},
+			{"lat": -60.978, "lng": 57.682},
+			{"lat": -59.883, "lng": 59.770},
+			{"lat": -57.451, "lng": 59.814},
+			{"lat": -56.975, "lng": 57.638}
+			
 		]
 	}
 ]
