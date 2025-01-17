@@ -185,10 +185,10 @@ $(function() {
 			]),
 		}),
 		new SectionModel({
-			name: '3.0',
+			name: 'Áreas',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territories',
+					name: 'Territórios',
 					icon: 'General/wall-breach.png',
 					enabled: false,
 					url: 'data/territories.3.json',
@@ -363,8 +363,8 @@ $(function() {
 			this.mapType = 'Maps';
 			this.mapDetails = {
 				'Maps':     '#0FA8D2',
-				'Satelite': '#143D6B',
-				'Estrada':      '#1862AD',
+				'Satellite': '#143D6B',
+				'Road':      '#1862AD',
 			};
 
 			this.mapOptions = {
