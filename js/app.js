@@ -183,7 +183,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territorios de Gangues',
-					icon: 'General/area_gangue.png',
+					icon: 'General/radar_weed_stash.png',
 					enabled: false,
 					url: 'data/territorios.3.json',
 				}),
