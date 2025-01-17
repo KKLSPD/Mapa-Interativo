@@ -136,12 +136,6 @@ $(function() {
 					url: 'data/Bairro.json',
 				}),
 				new CategoryModel({
-					name: 'Restaurante',
-					icon: 'General/radar_bar.png',
-					enabled: true,
-					url: 'data/Restaurante.json',
-				}),
-				new CategoryModel({
 					name: 'Automotive',
 					icon: 'radar/radar_acsr_race_hotring.png',
 					enabled: true,
@@ -160,7 +154,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territórios',
-					icon: 'Geral/wall-breach.png',
+					icon: 'General/wall-breach.png',
 					enabled: true,
 					url: 'data/territories.4.json',
 				}),
@@ -171,7 +165,7 @@ $(function() {
 					url: 'data/weed_turf.json',
 				}),
 				new CategoryModel({
-					name: 'Lojas',
+					name: 'Banco',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
 					url: 'data/heists.4.json',
@@ -195,12 +189,12 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territories',
-					icon: 'Geral/wall-breach.png',
+					icon: 'General/wall-breach.png',
 					enabled: false,
 					url: 'data/territories.3.json',
 				}),
 				new CategoryModel({
-					name: 'Heists',
+					name: 'Banco',
 					icon: 'radar/radar_heist.png',
 					enabled: false,
 					url: 'data/heists.3.json',
@@ -212,7 +206,7 @@ $(function() {
 					url: 'data/legal.3.json',
 				}),
 				new CategoryModel({
-					name: 'Restaurants',
+					name: 'Restaurantes',
 					icon: 'radar/radar_bar.png',
 					enabled: false,
 					url: 'data/restaurants.3.json',
