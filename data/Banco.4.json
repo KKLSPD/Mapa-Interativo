@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Fleeca Bank 1",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
+		"title": "Fleeca Bank - Rota 68",
+		"notes": "",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
 		"order": 0,
 		"strokecolor": "FFD700",
@@ -14,8 +14,8 @@
 		]
 	},
 	{
-		"title": "Fleeca Bank 2",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
+		"title": "Fleeca Bank 2 - Great Ocean",
+		"notes": "",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
 		"order": 0,
 		"strokecolor": "FFD700",
@@ -28,8 +28,8 @@
 		]
 	},
 	{
-		"title": "Fleeca Bank 3",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
+		"title": "Fleeca Bank 3 - Bennys",
+		"notes": "",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFD700",
@@ -46,7 +46,7 @@
 	{
 		"title": "Paleto Bank",
 		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/City_Vault_(Pacific_Standard_Public_Deposit_Bank)",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFD700",
 		"fillcolor": "FFD700",
@@ -73,25 +73,9 @@
 		]
 	},
 	{
-		"title": "The Casino",
-		"notes": "The Casino is currently inactive.",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": -50.986, "lng": 12.406},
-			{"lat": -51.849, "lng": 14.548},
-			{"lat": -53.409, "lng": 12.911},
-			{"lat": -52.447, "lng": 10.442},
-			{"lat": -51.947, "lng": 11.181},
-			{"lat": -51.339, "lng": 12.015}
-		]
-	},
-	{
-		"title": "The City Vault",
+		"title": "Banco Central",
 		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/City_Vault_(Pacific_Standard_Public_Deposit_Bank)",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFD700",
 		"fillcolor": "FFD700",
@@ -100,20 +84,6 @@
 			{"lat": -48.286, "lng": -6.359},
 			{"lat": -49.684, "lng": -7.149},
 			{"lat": -49.335, "lng": -8.622}
-		]
-	},
-	{
-		"title": "Vangelico Jewelry Store",
-		"notes": "Retailer of high-end jewelry and blood diamonds. A common place for criminals to heist.",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": -56.639, "lng": -34.579},
-			{"lat": -56.184, "lng": -33.101},
-			{"lat": -57.782, "lng": -31.405},
-			{"lat": -57.993, "lng": -32.087},
-			{"lat": -56.851, "lng": -33.394}
 		]
 	}
 ]
