@@ -8,8 +8,8 @@
 		"fillcolor": "FF005A",
 		"latlngarray": [
 			{"lat": -46.081, "lng": -36.101},
-			{"lat": -46.416, "lng": -30.828},
 			{"lat": -47.384, "lng": -36.222},
+			{"lat": -46.416, "lng": -30.828},
 			{"lat": -47.902, "lng": -30.860}
 		]
 	},
@@ -58,5 +58,37 @@
 			{"lat": -70.110, "lng": -37.221},
 			{"lat": -69.533, "lng": -35.592}
 		]
+	},
+	{
+		"title": "Mount Zonah Hospital",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -58.855, "lng": -28.508},
+			{"lat": -58.235, "lng": -28.332},
+			{"lat": -57.594, "lng": -28.859},
+			{"lat": -57.316, "lng": -27.893},
+			{"lat": -58.529, "lng": -25.377},
+			{"lat": -59.002, "lng": -25.530}
+		]
+	},
+	{
+		"title": "Paleto Medical Center",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": 75.725, "lng": -22.727},
+			{"lat": 75.949, "lng": -23.606},
+			{"lat": 76.372, "lng": -21.771},
+			{"lat": 76.137, "lng": -20.892}
+		]
 	}
+	
+	
 ]
