@@ -156,7 +156,7 @@ $(function() {
 					name: 'Gangues',
 					icon: 'General/wall-breach.png',
 					enabled: true,
-					url: 'data/gangues.json',
+					url: 'data/Gangues.json',
 				}),
 				new CategoryModel({
 					name: 'Bancos',
@@ -176,6 +176,12 @@ $(function() {
 					enabled: true,
 					url: 'data/Estabelecimentos.4.json',
 				}),
+				new CategoryModel({
+					name: 'Posto de Gasolina',
+					icon: 'radar/radar_bar.png',
+					enabled: true,
+					url: 'data/Posto.json',
+				}),
 			]),
 		}),
 		new SectionModel({
@@ -185,7 +191,7 @@ $(function() {
 					name: 'Territorios de Gangues',
 					icon: 'General/radar_weed_stash.png',
 					enabled: false,
-					url: 'data/territorios.3.json',
+					url: 'data/Territórios3.json',
 				}),
 				new CategoryModel({
 					name: 'Área do Banco',
@@ -198,12 +204,6 @@ $(function() {
 					icon: 'radar/radar_police_station.png',
 					enabled: false,
 					url: 'data/legal.3.json',
-				}),
-				new CategoryModel({
-					name: 'Restaurants',
-					icon: 'radar/radar_bar.png',
-					enabled: false,
-					url: 'data/restaurants.3.json',
 				}),
 			]),
 		}),
