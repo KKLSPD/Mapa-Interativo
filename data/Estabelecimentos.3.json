@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Burger Shot",
-		"notes": "Burger Shot is a chain of fast-food restaurants specializing in hamburgers. Burger Shot is the food of choice in Los Santos. The company offers many delicious menu items and is owned by Dean Watson with Shelly Smith as CEO and Cassie Cupcake as COO.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Burger_Shot",
+		"notes": "",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
@@ -12,24 +12,7 @@
 			{"lat": -66.322, "lng": -47.603},
 			{"lat": -66.828, "lng": -49.767}
 		],
-		"video": {
-			"yt_id": "O2zQEGiqtxk",
-			"yt_user_display": "c/tongys"
-		}
-	},
-	{
-		"title": "Maldini's Pizzeria",
-		"notes": "Maldini's Pizzeria is Co-owned by Vinny Pistone and Mr. Kebun.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Maldini%27s_Pizzeria",
-		"order": 0,
-		"strokecolor": "E759E1",
-		"fillcolor": "E759E1",
-		"latlngarray": [
-			{"lat": -65.419, "lng": -33.103},
-			{"lat": -65.419, "lng": -31.476},
-			{"lat": -66.087, "lng": -31.476},
-			{"lat": -66.087, "lng": -33.103}
-		]
+		
 	},
 	{
 		"title": "Rooster Rest",
