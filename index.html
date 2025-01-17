@@ -24,20 +24,20 @@
 <body>
 	<header>
 		<p class="left" style="padding-top: 5px;">
-			<a href="">Mapa Interativo</a>
+			<a href="">NoPixel Territory Map</a>
 		</p>
 		<ul class="right">
 			<div class="dropdown">
-				<a href="https://media.discordapp.net/attachments/865749943133667338/1074886491798524005/desmanches_bcso.png?ex=678a6f4e&is=67891dce&hm=ad5c2ae343cb77551e8514f4069633122d59b0ec7374998c2a3031ade02e5563&=&format=webp&quality=lossless&width=1148&height=671" target="_blank"><button class="btn btn-primary">Rotas</button></a>
-				<button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Distância</button>
-				<button class="btn btn-primary" id="createzone" onclick="printArray()">Adicionar Novo Ponto</button>
+				<a href="https://github.com/skyrossm/np-gangmap/graphs/contributors" target="_blank"><button class="btn btn-primary">Contributors</button></a>
+				<button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Add Distance Ruler</button>
+				<button class="btn btn-primary" id="createzone" onclick="printArray()">Add New Region</button>
 				<button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Tipo de Visualização
+					Select Map Type
 				</button>
 				<div class="dropdown-menu" aria-labelledby="ddmenu">
-					<a href="#" id="Maps"           class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Maps');           $(this).addClass('active');">Maps</a>
-					<a href="#" id="Satélite"       class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satélite');       $(this).addClass('active');">Satélite</a>
-					<a href="#" id="Estrada"            class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Estrada');            $(this).addClass('active');">Estrada</a>
+					<a href="#" id="Atlas"           class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Atlas');           $(this).addClass('active');">Atlas</a>
+					<a href="#" id="Satellite"       class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satellite');       $(this).addClass('active');">Satellite</a>
+					<a href="#" id="Road"            class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Road');            $(this).addClass('active');">Road</a>
 				</div>
 			</div>
 
