@@ -156,7 +156,7 @@ $(function() {
 					name: 'Gangues',
 					icon: 'General/wall-breach.png',
 					enabled: true,
-					url: 'data/ganguesjson',
+					url: 'data/gangues.json',
 				}),
 				new CategoryModel({
 					name: 'Bancos',
@@ -183,7 +183,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territorios de Gangues',
-					icon: 'General/wall-breach.png',
+					icon: 'General/area_gangue.png',
 					enabled: false,
 					url: 'data/territorios.3.json',
 				}),
