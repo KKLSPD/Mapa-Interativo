@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Davis Gas Station",
+		"title": "Posto de Gasolina - Davis ",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
@@ -15,7 +15,7 @@
 		]
 	},
 	{
-		"title": "Downtown Vinewood Gas Station",
+		"title": "Posto de Gasolina - Banco Central",
 		"notes": "",
 		"order": 1,
 		"strokecolor": "00DA7D",
@@ -29,7 +29,7 @@
 		]
 	},
 	{
-		"title": "Great Ocean Gas Station",
+		"title": "Posto de Gasolina - Great Ocean",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
@@ -48,9 +48,9 @@
 		]
 	},
 	{
-		"title": "Little Seoul Gas Station",
+		"title": "Posto do China - Little Seoul",
 		"notes": "A very popular gas station located in Little Seoul.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Little_Seoul",
+		"wiki_link": "",
 		"order": 1,
 		"strokecolor": "00DA7D",
 		"fillcolor": "00CADA",
@@ -68,7 +68,7 @@
 		]
 	},
 	{
-		"title": "Mirror Park Gas Station",
+		"title": "Posto do Mirror Park",
 		"notes": "",
 		"order": 1,
 		"strokecolor": "00DA7D",
@@ -83,7 +83,7 @@
 		]
 	},
 	{
-		"title": "Paleto Bay Gas Station",
+		"title": "Posto de Paleto Bay",
 		"notes": "",
 		"order": 1,
 		"strokecolor": "00DA7D",
@@ -96,7 +96,7 @@
 		]
 	},
 	{
-		"title": "Richman Glen Gas Station",
+		"title": "Posto da Patricia",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
@@ -114,7 +114,7 @@
 		]
 	},
 	{
-		"title": "San Chianski Mountain Gas Station",
+		"title": "Posto Senora Freeway",
 		"notes": "",
 		"order": 1,
 		"strokecolor": "00DA7D",
@@ -127,7 +127,7 @@
 		]
 	},
 	{
-		"title": "Strawberry Gas Station",
+		"title": "Posto do Vanilla",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
@@ -142,7 +142,7 @@
 		]
 	},
 	{
-		"title": "Sandy Shores Gas Station",
+		"title": "Posto de Sandy Shores",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
@@ -156,7 +156,7 @@
 		]
 	},
 	{
-		"title": "Grapeseed Gas Station",
+		"title": "Posto de Grapeseed",
 		"notes": "",
 		"wiki_link": "",
 		"order": 1,
