@@ -360,11 +360,11 @@ $(function() {
 
 	var MapView = Backbone.View.extend({
 		initialize: function() {
-			this.mapType = 'Atlas';
+			this.mapType = 'Maps';
 			this.mapDetails = {
-				'Atlas':     '#0FA8D2',
-				'Satellite': '#143D6B',
-				'Road':      '#1862AD',
+				'Maps':     '#0FA8D2',
+				'Satelite': '#143D6B',
+				'Estrada':      '#1862AD',
 			};
 
 			this.mapOptions = {
