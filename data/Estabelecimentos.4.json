@@ -1,18 +1,85 @@
 [
 	{
-		"title": "Snr. Buns",
-		"notes": "Senior Buns is a chain of fast-food restaurants specializing in hamburgers.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Snr._Buns",
+		"title": "Burger Shot",
+		"notes": "",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
 		"latlngarray": [
-			{"lat": -63.219, "lng": -30.462},
-			{"lat": -63.219, "lng": -29.374},
-			{"lat": -64.364, "lng": -29.352},
-			{"lat": -64.082, "lng": -29.825},
-			{"lat": -63.773, "lng": -30.341},
-			{"lat": -63.500, "lng": -30.506}
+			{"lat": -66.046, "lng": -50.898},
+			{"lat": -65.492, "lng": -48.888},
+			{"lat": -66.322, "lng": -47.603},
+			{"lat": -66.828, "lng": -49.767}
+		]
+		
+	},
+	{
+		"title": "Yelllow Jack",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -46.792, "lng": -21.512},
+			{"lat": -46.792, "lng": -19.018},
+			{"lat": -47.077, "lng": -18.754},
+			{"lat": -48.099, "lng": -18.699},
+			{"lat": -48.107, "lng": -19.358},
+			{"lat": -48.048, "lng": -20.182},
+			{"lat": -47.989, "lng": -20.644},
+			{"lat": -47.967, "lng": -21.512}
+		]
+	},
+	{
+		"title": "UWU Caf\u00e9",
+		"notes": "UwU Caf\u00e9 is a restaurant created and owned by Ash Ketchup. Benji Ramos, Sherry Paie and Attorney James Haze each own a small percentage of the company and help run it",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -66.759, "lng": -33.115},
+			{"lat": -66.759, "lng": -30.808},
+			{"lat": -68.069, "lng": -30.775},
+			{"lat": -68.069, "lng": -32.857},
+			{"lat": -67.746, "lng": -33.895},
+			{"lat": -67.506, "lng": -33.467},
+			{"lat": -67.216, "lng": -33.221},
+			{"lat": -66.985, "lng": -33.133}
+		]
+	},
+	{
+		"title": "Up n Atom",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -47.178, "lng": -12.779},
+			{"lat": -47.387, "lng": -11.978},
+			{"lat": -48.388, "lng": -12.538},
+			{"lat": -48.118, "lng": -13.626},
+			{"lat": -47.333, "lng": -13.133}
+		]
+	},
+	{
+		"title": "Casino",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
+		"latlngarray": [
+			{"lat": -50.986, "lng": 12.406},
+			{"lat": -51.849, "lng": 14.548},
+			{"lat": -53.409, "lng": 12.911},
+			{"lat": -52.447, "lng": 10.442},
+			{"lat": -51.947, "lng": 11.181},
+			{"lat": -51.339, "lng": 12.015}
 		]
 	}
 ]
+
