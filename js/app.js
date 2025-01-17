@@ -153,16 +153,16 @@ $(function() {
 			name: 'Pontos',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territories',
+					name: 'Gangues',
 					icon: 'General/wall-breach.png',
 					enabled: true,
-					url: 'data/territories.4.json',
+					url: 'data/ganguesjson',
 				}),
 				new CategoryModel({
-					name: 'Banco',
+					name: 'Bancos',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
-					url: 'data/Lojas.4.json',
+					url: 'data/Banco.4.json',
 				}),
 				new CategoryModel({
 					name: 'Polícia',
@@ -182,16 +182,16 @@ $(function() {
 			name: '3.0',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territories',
+					name: 'Territorios de Gangues',
 					icon: 'General/wall-breach.png',
 					enabled: false,
-					url: 'data/territories.3.json',
+					url: 'data/territorios.3.json',
 				}),
 				new CategoryModel({
-					name: 'Heists',
+					name: 'Área do Banco',
 					icon: 'radar/radar_heist.png',
 					enabled: false,
-					url: 'data/heists.3.json',
+					url: 'data/Banco.3.json',
 				}),
 				new CategoryModel({
 					name: 'Legal',
