@@ -178,7 +178,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Posto de Gasolina',
-					icon: 'radar/radar_bar.png',
+					icon: 'radar/radar_posto.png',
 					enabled: true,
 					url: 'data/Posto.json',
 				}),
