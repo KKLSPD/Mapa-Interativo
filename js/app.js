@@ -156,10 +156,10 @@ $(function() {
 			]),
 		}),
 		new SectionModel({
-			name: '4.0',
+			name: 'Territórios',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territories',
+					name: 'Territórios',
 					icon: 'Geral/wall-breach.png',
 					enabled: true,
 					url: 'data/territories.4.json',
@@ -171,19 +171,19 @@ $(function() {
 					url: 'data/weed_turf.json',
 				}),
 				new CategoryModel({
-					name: 'Heists',
+					name: 'Lojas',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
 					url: 'data/heists.4.json',
 				}),
 				new CategoryModel({
-					name: 'Legal',
+					name: 'Polícia',
 					icon: 'radar/radar_police_station.png',
 					enabled: true,
 					url: 'data/legal.4.json',
 				}),
 				new CategoryModel({
-					name: 'Restaurants',
+					name: 'Restaurantes',
 					icon: 'radar/radar_bar.png',
 					enabled: true,
 					url: 'data/restaurants.4.json',
