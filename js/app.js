@@ -130,33 +130,27 @@ $(function() {
 			name: 'General',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Neighborhoods',
+					name: 'Bairro',
 					icon: 'radar/radar_warehouse.png',
 					enabled: false,
-					url: 'data/neighborhoods.json',
+					url: 'data/Bairro.json',
 				}),
 				new CategoryModel({
-					name: 'Neutral',
-					icon: 'General/glitches.png',
-					enabled: true,
-					url: 'data/neutral.json',
-				}),
-				new CategoryModel({
-					name: 'Automotive',
+					name: 'Oficina',
 					icon: 'radar/radar_acsr_race_hotring.png',
 					enabled: true,
-					url: 'data/automotive.json',
+					url: 'data/oficina.json',
 				}),
 				new CategoryModel({
-					name: 'Medical',
+					name: 'Hospital',
 					icon: 'radar/radar_hospital.png',
 					enabled: true,
-					url: 'data/medical.json',
+					url: 'data/Hospital.json',
 				}),
 			]),
 		}),
 		new SectionModel({
-			name: '4.0',
+			name: 'Pontos',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territories',
@@ -171,22 +165,22 @@ $(function() {
 					url: 'data/weed_turf.json',
 				}),
 				new CategoryModel({
-					name: 'Heists',
+					name: 'Banco',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
-					url: 'data/heists.4.json',
+					url: 'data/Lojas.4.json',
 				}),
 				new CategoryModel({
-					name: 'Legal',
+					name: 'Polícia',
 					icon: 'radar/radar_police_station.png',
 					enabled: true,
 					url: 'data/legal.4.json',
 				}),
 				new CategoryModel({
-					name: 'Restaurants',
+					name: 'Estabelecimentos',
 					icon: 'radar/radar_bar.png',
 					enabled: true,
-					url: 'data/restaurants.4.json',
+					url: 'data/Estabelecimentos.4.json',
 				}),
 			]),
 		}),
