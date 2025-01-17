@@ -127,7 +127,7 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'General',
+			name: 'Geral',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
@@ -136,10 +136,10 @@ $(function() {
 					url: 'data/Bairro.json',
 				}),
 				new CategoryModel({
-					name: 'Neutral',
-					icon: 'General/glitches.png',
+					name: 'Restaurante',
+					icon: 'General/radar_bar.png',
 					enabled: true,
-					url: 'data/neutral.json',
+					url: 'data/Restaurante.json',
 				}),
 				new CategoryModel({
 					name: 'Automotive',
@@ -148,10 +148,10 @@ $(function() {
 					url: 'data/automotive.json',
 				}),
 				new CategoryModel({
-					name: 'Medical',
+					name: 'Hospital',
 					icon: 'radar/radar_hospital.png',
 					enabled: true,
-					url: 'data/medical.json',
+					url: 'data/Hospital.json',
 				}),
 			]),
 		}),
@@ -160,7 +160,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territories',
-					icon: 'General/wall-breach.png',
+					icon: 'Geral/wall-breach.png',
 					enabled: true,
 					url: 'data/territories.4.json',
 				}),
@@ -195,7 +195,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territories',
-					icon: 'General/wall-breach.png',
+					icon: 'Geral/wall-breach.png',
 					enabled: false,
 					url: 'data/territories.3.json',
 				}),

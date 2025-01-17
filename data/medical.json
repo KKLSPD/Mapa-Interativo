@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Central Los Santos Medical Center",
+		"title": "Central Los Santos Hospital Center",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -78,9 +78,9 @@
 		]
 	},
 	{
-		"title": "Pillbox Medical Center",
-		"notes": "Pillbox Medical Center is the main hospital in Los Santos. Pillbox is the center of higher medicine in the city of Los Santos. It is home to the Emergency Medical Services, however EMS is not owned or funded by the hospital. They work with the rest of the governmental agencies across the city and routinely give them necessary higher medical services.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Pillbox_Medical_Center",
+		"title": "Pillbox Hospital Center",
+		"notes": "Pillbox Hospital Center is the main hospital in Los Santos. Pillbox is the center of higher medicine in the city of Los Santos. It is home to the Emergency Hospital Services, however EMS is not owned or funded by the hospital. They work with the rest of the governmental agencies across the city and routinely give them necessary higher Hospital services.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Pillbox_Hospital_Center",
 		"order": 0,
 		"strokecolor": "FF005A",
 		"fillcolor": "FF005A",
@@ -97,7 +97,7 @@
 	{
 		"title": "El Burro Heights Fire Station",
 		"notes": "El Burro Heights Fire Station is an official office of EMS.",
-		"wiki_ling": "https://nopixel.fandom.com/wiki/Emergency_Medical_Services",
+		"wiki_ling": "https://nopixel.fandom.com/wiki/Emergency_Hospital_Services",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "FF0000",
@@ -109,9 +109,9 @@
 		]
 	},
 	{
-		"title": "Viceroy Medical Center",
-		"notes": "Viceroy Medical Center is a secondary hospital in Los Santos.",
-		"wiki_ling": "https://nopixel.fandom.com/wiki/Viceroy_Medical_Center",
+		"title": "Viceroy Hospital Center",
+		"notes": "Viceroy Hospital Center is a secondary hospital in Los Santos.",
+		"wiki_ling": "https://nopixel.fandom.com/wiki/Viceroy_Hospital_Center",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "FF0000",
