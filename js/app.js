@@ -185,11 +185,11 @@ $(function() {
 			]),
 		}),
 		new SectionModel({
-			name: '3.0',
+			name: 'Área',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Territorios de Gangues',
-					icon: 'General/radar_weed_stash.png',
+					icon: 'General/radar_arma.png',
 					enabled: false,
 					url: 'data/Territórios3.json',
 				}),
