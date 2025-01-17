@@ -159,12 +159,6 @@ $(function() {
 					url: 'data/territories.4.json',
 				}),
 				new CategoryModel({
-					name: 'Weed Turf',
-					icon: 'radar/radar_weed_stash.png',
-					enabled: true,
-					url: 'data/weed_turf.json',
-				}),
-				new CategoryModel({
 					name: 'Banco',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
@@ -360,11 +354,11 @@ $(function() {
 
 	var MapView = Backbone.View.extend({
 		initialize: function() {
-			this.mapType = 'Atlas';
+			this.mapType = 'atlas';
 			this.mapDetails = {
-				'Atlas':     '#0FA8D2',
-				'Satellite': '#143D6B',
-				'Road':      '#1862AD',
+				'atlas':     '#0FA8D2',
+				'satellite': '#143D6B',
+				'road':      '#1862AD',
 			};
 
 			this.mapOptions = {
