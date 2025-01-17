@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Fleeca Bank - Rota 68",
+		"title": "Banco Fleeca - Rota 68",
 		"notes": "",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
 		"order": 0,
@@ -14,9 +14,9 @@
 		]
 	},
 	{
-		"title": "Fleeca Bank 2 - Great Ocean",
+		"title": "Banco Fleeca - Great Ocean",
 		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFD700",
 		"fillcolor": "FFD700",
@@ -28,7 +28,7 @@
 		]
 	},
 	{
-		"title": "Fleeca Bank 3 - Bennys",
+		"title": "Banco Fleeca - Bennys",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -44,7 +44,35 @@
 		]
 	},
 	{
-		"title": "Paleto Bank",
+		"title": "Banco Fleeca - Chaves",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
+		"latlngarray": [
+			{"lat": -57.805, "lng": -8.393},
+			{"lat": -57.012, "lng": -7.943},
+			{"lat": -57.547, "lng": -5.185},
+			{"lat": -58.334, "lng": -5.746}
+		]
+	},
+	{
+		"title": "Banco Fleeca - Praça",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
+		"latlngarray": [
+			{"lat": -67.513, "lng": -10.858},
+			{"lat": -67.664, "lng": -9.726},
+			{"lat": -67.930, "lng": -10.045},
+			{"lat": -67.789, "lng": -11.231}
+		]
+	},
+	{
+		"title": "Banco de Paleto ",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -55,21 +83,6 @@
 			{"lat": 77.257, "lng": -18.059},
 			{"lat": 77.015, "lng": -17.055},
 			{"lat": 76.758, "lng": -18.198}
-		]
-	},
-	{
-		"title": "Bay City Bank",
-		"notes": "",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": -65.062, "lng": -53.673},
-			{"lat": -64.750, "lng": -52.816},
-			{"lat": -65.186, "lng": -52.080},
-			{"lat": -65.402, "lng": -52.970},
-			{"lat": -65.186, "lng": -53.344}
 		]
 	},
 	{
