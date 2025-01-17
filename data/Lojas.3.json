@@ -122,7 +122,7 @@
 		}
 	},
 	{
-		"title": "VAR Heist",
+		"title": "VAR Banco",
 		"notes": "The VAR Heist is accessible from the roof of a building in Morningwood, using VAR headsets (obtained from the Yacht Heist) criminals can enter a virtual world to fight hostiles while attempting to hack into terminals and gain illegal data.",
 		"wiki_link": "https://nopixel.fandom.com/wiki/VAR_Heist",
 		"order": 0,
@@ -155,7 +155,7 @@
 		]
 	},
 	{
-		"title": "Yacht Heist",
+		"title": "Yacht Banco",
 		"notes": "The Yacht Heist provids VAR headsets for the VAR heist.",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Category:Heist",
 		"order": 0,
