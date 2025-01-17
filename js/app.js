@@ -608,13 +608,9 @@ $(function() {
 });
 
 function printArray() {
-	var msg = 'Clique com o botão esquerdo do mapa:\n'
+	var msg = 'Clique com o botão esquerdo do mouse no mapa.:\n'
 	var i;
 	for (i = 0; i < window.locs.length; i++) {
-		msg += '\t\t\t{"lat": ' + window.locs[i].position.lat().toFixed(3) + ', "lng": ' + window.locs[i].position.lng().toFixed(3) + '}' + (window.locs.length - 1 == i ? '' : ',') + '\n';
-	}
-	msg += '\t\t]'
-	+ '\n\t},\n```';
 	alert(msg);
 	console.log(msg);
 }
