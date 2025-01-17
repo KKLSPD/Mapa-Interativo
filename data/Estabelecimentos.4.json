@@ -66,12 +66,12 @@
 		]
 	},
 	{
-		"title": "Casino",
+		"title": "Cassino",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
 		"latlngarray": [
 			{"lat": -50.986, "lng": 12.406},
 			{"lat": -51.849, "lng": 14.548},
@@ -80,6 +80,20 @@
 			{"lat": -51.947, "lng": 11.181},
 			{"lat": -51.339, "lng": 12.015}
 		]
-	}
+	},
+	{
+		"title": "Bean Machine",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -67.410, "lng": -11.613},
+			{"lat": -67.944, "lng": -12.019},
+			{"lat": -68.030, "lng": -11.481},
+			{"lat": -67.503, "lng": -10.876}
+		]
+	},
 ]
 

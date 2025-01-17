@@ -160,7 +160,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Bancos',
-					icon: 'radar/radar_heist.png',
+					icon: 'radar/radar_office_for_sale.png',
 					enabled: true,
 					url: 'data/Banco.4.json',
 				}),
@@ -189,7 +189,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Área do Banco',
-					icon: 'radar/radar_heist.png',
+					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
 					url: 'data/Banco.3.json',
 				}),

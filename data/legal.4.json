@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Vespucci Police Department",
+		"title": "Vespucci Departamento de Polícia",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -20,7 +20,7 @@
 		]
 	},
 	{
-		"title": "Davis PD",
+		"title": "Departamento de Davis",
 		"notes": "",
 		"order": 0,
 		"strokecolor": "FF0000",
@@ -33,7 +33,7 @@
 		]
 	},
 	{
-		"title": "Impound",
+		"title": "Apreensão",
 		"notes": "Onde os carros são apreendidos",
 		"order": 0,
 		"strokecolor": "FF0000",
@@ -47,7 +47,7 @@
 		]
 	},
 	{
-		"title": "Mission Row",
+		"title": "Departamento de Mission Row",
 		"notes": "The Los Santos Police Department, along with the Sheriff's Office, makes up the executive branch of Los Santos; together they ensure that the law is upheld and enforced.",
 		"wiki_link": "",
 		"order": 0,
