@@ -36,26 +36,6 @@
 		]
 	},
 	{
-		"title": "Bean Manor",
-		"notes": "Marlo Stanfield and Fiona Stewart's mansion. It is affiliated Cleanbois.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Bean_Manor",
-		"order": 0,
-		"strokecolor": "E09573",
-		"fillcolor": "0080FF",
-		"latlngarray": [
-			{"lat": -49.233, "lng": -39.611},
-			{"lat": -49.319, "lng": -39.117},
-			{"lat": -49.339, "lng": -37.436},
-			{"lat": -49.276, "lng": -37.018},
-			{"lat": -50.688, "lng": -36.744},
-			{"lat": -50.591, "lng": -37.073},
-			{"lat": -50.535, "lng": -37.425},
-			{"lat": -50.514, "lng": -38.128},
-			{"lat": -50.514, "lng": -39.062},
-			{"lat": -50.542, "lng": -39.819}
-		]
-	},
-	{
 		"title": "College",
 		"notes": "",
 		"wiki_link": "",
@@ -188,6 +168,22 @@
 			{"lat": -66.087, "lng": -30.015},
 			{"lat": -66.638, "lng": -30.686},
 			{"lat": -66.638, "lng": -33.103}
+		]
+	},
+	{
+		"title": "The Casino",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
+		"latlngarray": [
+			{"lat": -50.986, "lng": 12.406},
+			{"lat": -51.849, "lng": 14.548},
+			{"lat": -53.409, "lng": 12.911},
+			{"lat": -52.447, "lng": 10.442},
+			{"lat": -51.947, "lng": 11.181},
+			{"lat": -51.339, "lng": 12.015}
 		]
 	},
 	{
