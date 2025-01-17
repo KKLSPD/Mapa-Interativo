@@ -127,33 +127,39 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'Geral',
+			name: 'General',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Bairro',
+					name: 'Neighborhoods',
 					icon: 'radar/radar_warehouse.png',
 					enabled: false,
-					url: 'data/Bairro.json',
+					url: 'data/neighborhoods.json',
 				}),
 				new CategoryModel({
-					name: 'Oficina',
+					name: 'Neutral',
+					icon: 'General/glitches.png',
+					enabled: true,
+					url: 'data/neutral.json',
+				}),
+				new CategoryModel({
+					name: 'Automotive',
 					icon: 'radar/radar_acsr_race_hotring.png',
 					enabled: true,
 					url: 'data/automotive.json',
 				}),
 				new CategoryModel({
-					name: 'Hospital',
+					name: 'Medical',
 					icon: 'radar/radar_hospital.png',
 					enabled: true,
-					url: 'data/Hospital.json',
+					url: 'data/medical.json',
 				}),
 			]),
 		}),
 		new SectionModel({
-			name: 'Territórios',
+			name: '4.0',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territórios',
+					name: 'Territories',
 					icon: 'General/wall-breach.png',
 					enabled: true,
 					url: 'data/territories.4.json',
@@ -165,19 +171,19 @@ $(function() {
 					url: 'data/weed_turf.json',
 				}),
 				new CategoryModel({
-					name: 'Banco',
+					name: 'Heists',
 					icon: 'radar/radar_heist.png',
 					enabled: true,
 					url: 'data/heists.4.json',
 				}),
 				new CategoryModel({
-					name: 'Polícia',
+					name: 'Legal',
 					icon: 'radar/radar_police_station.png',
 					enabled: true,
 					url: 'data/legal.4.json',
 				}),
 				new CategoryModel({
-					name: 'Estabelecimentos',
+					name: 'Restaurants',
 					icon: 'radar/radar_bar.png',
 					enabled: true,
 					url: 'data/restaurants.4.json',
@@ -185,16 +191,16 @@ $(function() {
 			]),
 		}),
 		new SectionModel({
-			name: 'Áreas',
+			name: '3.0',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Territórios',
+					name: 'Territories',
 					icon: 'General/wall-breach.png',
 					enabled: false,
 					url: 'data/territories.3.json',
 				}),
 				new CategoryModel({
-					name: 'Banco',
+					name: 'Heists',
 					icon: 'radar/radar_heist.png',
 					enabled: false,
 					url: 'data/heists.3.json',
@@ -206,7 +212,7 @@ $(function() {
 					url: 'data/legal.3.json',
 				}),
 				new CategoryModel({
-					name: 'Estabelecimentos',
+					name: 'Restaurants',
 					icon: 'radar/radar_bar.png',
 					enabled: false,
 					url: 'data/restaurants.3.json',
@@ -360,9 +366,9 @@ $(function() {
 
 	var MapView = Backbone.View.extend({
 		initialize: function() {
-			this.mapType = 'Maps';
+			this.mapType = 'Atlas';
 			this.mapDetails = {
-				'Maps':     '#0FA8D2',
+				'Atlas':     '#0FA8D2',
 				'Satellite': '#143D6B',
 				'Road':      '#1862AD',
 			};
@@ -608,9 +614,23 @@ $(function() {
 });
 
 function printArray() {
-	var msg = 'Clique com o botão esquerdo do mouse no mapa.:\n'
+	var msg = 'Submit new regions here:\n'
+	+ 'https://github.com/skyrossm/np-gangmap/issues\n\n'
+	+ 'Right click the map to add points to the region. You may have to toggle regions off to be able to right click on the bottom layer. Fill in the values marked "<edit here>" and title the new issue using the format: "Add <title> region". Copy and paste everything below this. If your browser does not support selecting the text below press F12 to open the developer console and copy it from there. (scroll down)\n\n';
+	msg += '```json\n\t{\n\t\t"type": "Territories",'
+	+ '\n\t\t"title": "<edit this>",'
+	+ '\n\t\t"notes": "<edit this>",'
+	+ '\n\t\t"wiki_link": "https://nopixel.fandom.com/wiki/<edit this>",'
+	+ '\n\t\t"order": 0,'
+	+ '\n\t\t"strokecolor": "FF0000",'
+	+ '\n\t\t"fillcolor": "FF0000",'
+	+ '\n\t\t"latlngarray": [\n';
 	var i;
 	for (i = 0; i < window.locs.length; i++) {
+		msg += '\t\t\t{"lat": ' + window.locs[i].position.lat().toFixed(3) + ', "lng": ' + window.locs[i].position.lng().toFixed(3) + '}' + (window.locs.length - 1 == i ? '' : ',') + '\n';
+	}
+	msg += '\t\t]'
+	+ '\n\t},\n```';
 	alert(msg);
 	console.log(msg);
 }
