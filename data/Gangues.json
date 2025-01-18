@@ -3,16 +3,12 @@
 		"title": "Families",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "008000",
-		"fillcolor": "008000",
-		"latlngarray": [
-			{"lat": -74.347, "lng": -19.907},
-			{"lat": -73.875, "lng": -22.104},
-			{"lat": -72.849, "lng": -22.082},
-			{"lat": -72.186, "lng": -20.094},
-			{"lat": -73.135, "lng": -16.249}
-		]
+		"image": {
+			"url": "General/Families",
+			"latlngarray": [
+				{"lat": -74.700, "lng": -20.191}
+			]
+		}
 	},
 	{
 		"title": "Ballas",
