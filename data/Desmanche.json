@@ -4,15 +4,15 @@
 		"notes": "Rota",
 		"order": 0,
 		"strokecolor": "4E5B31",
-		"linewidth": 5,
+		"linewidth": 500,
 		"segments": [
 			{
-				"start": {"lat": -56.469, "lng": -16.248},
-				"end": {"lat": -56.469, "lng": 2.537}
+				"start": {"lat": -62.918, "lng": -39.458},
+				"end": {"lat": -66.498, "lng": -39.854}
 			},
 			{
-				"start": {"lat": -56.469, "lng": 2.537},
-				"end": {"lat": -59.169, "lng": 2.537}
+				"start":{"lat": -70.861, "lng": -32.954},
+				"end": {"lat": -73.512, "lng": -35.815}
 			}]
 		}
 	
