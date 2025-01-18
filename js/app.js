@@ -199,12 +199,7 @@ $(function() {
 					enabled: false,
 					url: 'data/Banco.3.json',
 				}),
-				new CategoryModel({
-					name: 'Legal',
-					icon: 'radar/radar_police_station.png',
-					enabled: false,
-					url: 'data/legal.3.json',
-				}),
+	
 				new CategoryModel({
 					name: 'Desmanche',
 					icon: 'radar/radar_police_station.png',
