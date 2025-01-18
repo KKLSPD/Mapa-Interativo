@@ -139,7 +139,7 @@ $(function() {
 					name: 'Oficina',
 					icon: 'radar/radar_acsr_race_hotring.png',
 					enabled: false,
-					url: 'data/oficina.json',
+					url: 'data/Oficina.json',
 				}),
 				new CategoryModel({
 					name: 'Hospital',
