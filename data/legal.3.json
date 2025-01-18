@@ -1,8 +1,8 @@
 [
 	{
-		"title": "Fort Zancudo",
-		"notes": "",
-		"wiki_link": "",
+		"title": "AirX Flight School",
+		"notes": "AirX is owned by Jackie Snow. Knowing their passion, skill, and experience for flying, Bryce Miller, Tony Corleone, and Olivia Copper were the first to be recruited into the flight school. Bryce was hired as Flight Chief/Manager and Instructor of AirX. Tony and Copper were also hired as Flight Instructors. AirX Flight School operates out of Fort Zancudo military base.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/AirX_Flight_School",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -39,11 +39,10 @@
 			{"lat": 33.765, "lng": -98.402}
 		]
 	},
-	
 	{
-		"title": "Vespucci Police Department",
-		"notes": "",
-		"wiki_link": "",
+		"title": "Bob Smith PD",
+		"notes": "Bob Smith Police Department, formerly known as Vespucci Police Department was named after former Chief of Police Bob Smith. Who was the longest standing Chief in Los Santos, beloved by the people.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Bob_Smith_Police_Department",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -74,23 +73,23 @@
 		]
 	},
 	{
-		"title": "Impound",
-		"notes": "Onde os carros são apreendidos",
+		"title": "Impound Lot",
+		"notes": "Where cars go when they get impounded.",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
 		"latlngarray": [
-			{"lat": -73.320, "lng": -2.176},
-			{"lat": -73.082, "lng": -3.198},
-			{"lat": -73.308, "lng": -3.890},
-			{"lat": -73.552, "lng": -2.726}
-			
+			{"lat": -68.824, "lng": -22.398},
+			{"lat": -68.799, "lng": -18.344},
+			{"lat": -69.088, "lng": -18.355},
+			{"lat": -69.151, "lng": -19.146},
+			{"lat": -69.112, "lng": -22.398}
 		]
 	},
 	{
-		"title": "Mission Row",
-		"notes": "The Los Santos Police Department, along with the Sheriff's Office, makes up the executive branch of Los Santos; together they ensure that the law is upheld and enforced.",
-		"wiki_link": "",
+		"title": "Mission Row PD",
+		"notes": "The Los Santos Police Department, along with the Paleto Bay Sheriff's Office, the Senora Desert Sheriff's Office, the San Andreas State Police and the San Andreas State Park Rangers, makes up the executive branch of Los Santos; together they ensure that the law is upheld and enforced.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Los_Santos_Police_Department",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -102,9 +101,9 @@
 		]
 	},
 	{
-		"title": "Departamento de Paleto",
-		"notes": "Paleto Bay Sheriff's Office headquarters.",
-		"wiki_link": "",
+		"title": "PBSO",
+		"notes": "Paleto Bay Sheriff's Office headquarters ran by Kyle Pred.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Paleto_Bay_Sheriff%27s_Office",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -121,9 +120,9 @@
 		]
 	},
 	{
-		"title": "Departamento de Sandy Shores",
-		"notes": "The Senora Desert Sheriff's Office ensures crime is upheld and enforced.",
-		"wiki_link": "",
+		"title": "SDSO",
+		"notes": "Run by Chief Toretti, the Senora Desert Sheriff's Office ensures crime is upheld and enforced.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Senora_Desert_Sheriff's_Office",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -135,33 +134,22 @@
 		]
 	},
 	{
-		"title": "Departamento de Justiça",
-		"notes": "",
-		"wiki_link": "",
+		"title": "The Courthouse",
+		"notes": "Usually find randoms chilling here, but also has had some gunfights. Ran by Dennis LaBarrio",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Department_of_Justice",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
 		"latlngarray": [
-			{"lat": -57.603, "lng": -31.136},
-			{"lat": -56.156, "lng": -32.674},
-			{"lat": -55.484, "lng": -29.930},
-			{"lat": -56.944, "lng": -28.304}
-			
-		]
-	},{
-		"title": "N.O.O.S.E",
-		"notes": "",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
-		"latlngarray": [
-			{"lat": -59.260, "lng": 54.562},
-			{"lat": -60.978, "lng": 57.682},
-			{"lat": -59.883, "lng": 59.770},
-			{"lat": -57.451, "lng": 59.814},
-			{"lat": -56.975, "lng": 57.638}
-			
+			{"lat": -58.778, "lng": -9.293},
+			{"lat": -59.214, "lng": -7.029},
+			{"lat": -59.326, "lng": -6.546},
+			{"lat": -59.421, "lng": -6.315},
+			{"lat": -59.549, "lng": -6.216},
+			{"lat": -59.849, "lng": -6.183},
+			{"lat": -60.053, "lng": -6.282},
+			{"lat": -60.434, "lng": -6.557},
+			{"lat": -60.456, "lng": -10.523}
 		]
 	}
 ]
