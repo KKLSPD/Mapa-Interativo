@@ -162,13 +162,13 @@ $(function() {
 					name: 'Bancos',
 					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
-					url: 'data/Police.json',
+					url: 'data/Banco.json',
 				}),
 				new CategoryModel({
 					name: 'Polícia',
 					icon: 'radar/radar_police_station.png',
 					enabled: false,
-					url: 'data/legal.4.json',
+					url: 'data/Police.4.json',
 				}),
 				new CategoryModel({
 					name: 'Estabelecimentos',
