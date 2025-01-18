@@ -205,6 +205,12 @@ $(function() {
 					enabled: false,
 					url: 'data/legal.3.json',
 				}),
+				new CategoryModel({
+					name: 'Desmanche',
+					icon: 'radar/radar_police_station.png',
+					enabled: false,
+					url: 'data/Desmanche.json',
+				}),
 			]),
 		}),
 	]);
