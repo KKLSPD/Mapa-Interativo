@@ -38,7 +38,24 @@
 		{"lat": 33.765, "lng": -98.402}
 	]
 },
-	{
+{
+	"title": "San Andreas Departament of Fish and Wildlife",
+	"notes": "",
+	"wiki_link": "",
+	"order": 0,
+	"strokecolor": "FF0000",
+	"fillcolor": "0000FF",
+	"latlngarray": [
+		{"lat": -37.314, "lng": -3.925},
+		{"lat": -36.954, "lng": -3.255},		
+		{"lat": -36.382, "lng": -3.002},
+		{"lat": -35.849, "lng": -2.881},
+		{"lat": -35.911, "lng": -4.562},
+		{"lat": -36.849, "lng": -5.002},
+		{"lat": -37.147, "lng": -4.463}
+	]
+},
+{
 		"title": "Vespucci Departamento de Polícia",
 		"notes": "",
 		"wiki_link": "",
