@@ -178,5 +178,27 @@
 			{"lat": -56.975, "lng": 57.638}
 			
 		]
+	},
+	{
+		"title": "Penitenciária de Bolingbroke",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 9.862, "lng": 38.975},
+			{"lat": 15.370, "lng": 39.019},
+			{"lat": 17.414, "lng": 36.515},
+			{"lat": 17.100, "lng": 32.647},
+			{"lat": 14.606, "lng": 30.077},
+			{"lat": 12.105, "lng": 29.110},
+			{"lat": 8.430, "lng": 29.351},
+			{"lat": 6.141, "lng": 33.175},
+			{"lat": 6.687, "lng": 36.383},
+			{"lat": 8.473, "lng": 38.141}
+			
+			
+		]
 	}
 ]
