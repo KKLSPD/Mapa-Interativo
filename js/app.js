@@ -162,7 +162,7 @@ $(function() {
 					name: 'Bancos',
 					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
-					url: 'data/Banco.4.json',
+					url: 'data/Police.json',
 				}),
 				new CategoryModel({
 					name: 'Polícia',
