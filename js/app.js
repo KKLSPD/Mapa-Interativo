@@ -189,7 +189,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Área de Gangues',
-					icon: 'General/radar_arma.png',
+					icon: 'radar/radar_arma.png',
 					enabled: false,
 					url: 'data/Territórios3.json',
 				}),

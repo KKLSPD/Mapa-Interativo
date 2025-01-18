@@ -4,7 +4,7 @@
 		"notes": "",
 		"wiki_link": "",
 		"image": {
-			"url": "General/Families",
+			"icon": "General/Families",
 			"latlngarray": [
 				{"lat": -74.700, "lng": -20.191}
 			]
