@@ -46,17 +46,17 @@ header a.active {
 }
 
 .btn-primary {
-	background: #27b298;
-	border-color: #00b888;
+	background: #275fb2;
+	border-color: #275fb2;
 }
 
 .btn-primary:hover {
-	background: #00b888;
-	border-color: #00b888;
+	background: #275fb2;
+	border-color: #275fb2;
 }
 
 .dropdown-item.active {
-	background: #27b298;
+	background: #275fb2;
 }
 
 #map {
