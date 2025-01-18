@@ -153,7 +153,7 @@ $(function() {
 			name: 'Locais',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Gangues',
+					name: 'Guetos',
 					icon: 'General/wall-breach.png',
 					enabled: false,
 					url: 'data/Gangues.json',
