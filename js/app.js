@@ -197,9 +197,9 @@ $(function() {
 					name: 'Área do Banco',
 					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
-					url: 'data/Banco.3.json',
+					url: 'data/ÁreaBanco.json',
 				}),
-	
+				
 				new CategoryModel({
 					name: 'Desmanche',
 					icon: 'radar/radar_police_station.png',
