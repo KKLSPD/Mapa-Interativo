@@ -1,0 +1,19 @@
+[
+	{
+		"title": "Desmanche Zulo",
+		"notes": "Rota",
+		"order": 0,
+		"strokecolor": "4E5B31",
+		"linewidth": 5,
+		"segments": [
+			{
+				"start": {"lat": -56.469, "lng": -16.248},
+				"end": {"lat": -56.469, "lng": 2.537}
+			},
+			{
+				"start": {"lat": -56.469, "lng": 2.537},
+				"end": {"lat": -59.169, "lng": 2.537}
+			}]
+		}
+	
+]
