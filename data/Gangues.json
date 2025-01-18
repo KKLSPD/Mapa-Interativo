@@ -15,17 +15,53 @@
 		]
 	},
 	{
-		"title": "Julian",
+		"title": "Ballas",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "EC61FF",
-		"fillcolor": "EC61FF",
+		"strokecolor": "551A8B",
+		"fillcolor": "551A8B",
 		"latlngarray": [
-			{"lat": -60.048, "lng": 14.219},
-			{"lat": -60.305, "lng": 13.483},
-			{"lat": -59.906, "lng": 12.978},
-			{"lat": -59.657, "lng": 13.736}
+			{"lat": -74.700, "lng": -20.191},
+			{"lat": -74.163, "lng": -16.544},
+			{"lat": -75.021, "lng": -12.479},
+			{"lat": -74.478, "lng": -10.589},
+			{"lat": -75.117, "lng": -7.667},
+			{"lat": -76.283, "lng": -11.029},
+			{"lat": -76.294, "lng": -13.314}
+		]
+	},
+	{
+		"title": "Vagos",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FFFF00",
+		"fillcolor": "FFFF00",
+		"latlngarray": [
+			{"lat": -76.314, "lng": -9.919},
+			{"lat": -76.505, "lng": -8.095},
+			{"lat": -77.218, "lng": -4.541},
+			{"lat": -76.883, "lng": -2.585},
+			{"lat": -76.565, "lng": -1.311},
+			{"lat": -76.565, "lng": -1.311},
+			{"lat": -75.300, "lng": -6.760}
+		]
+	},
+	{
+		"title": "Marabunta",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "4169E1",
+		"fillcolor": "4169E1",
+		"latlngarray": [
+			{"lat": -73.908, "lng": 18.305},
+			{"lat": -73.613, "lng": 20.920},
+			{"lat": -73.173, "lng": 23.227},
+			{"lat": -72.426, "lng": 21.953},
+			{"lat": -72.833, "lng": 19.668},
+			{"lat": -73.154, "lng": 17.251}
 		]
 	}
 ]
