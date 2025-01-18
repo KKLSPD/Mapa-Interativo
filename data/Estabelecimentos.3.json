@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Burger Shot",
-		"notes": "Burger Shot is a chain of fast-food restaurants specializing in hamburgers. Burger Shot is the food of choice in Los Santos. The company offers many delicious menu items and is owned by Dean Watson with Shelly Smith as CEO and Cassie Cupcake as COO.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Burger_Shot",
+		"notes": "",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
@@ -11,30 +11,13 @@
 			{"lat": -65.492, "lng": -48.888},
 			{"lat": -66.322, "lng": -47.603},
 			{"lat": -66.828, "lng": -49.767}
-		],
-		"video": {
-			"yt_id": "O2zQEGiqtxk",
-			"yt_user_display": "c/tongys"
-		}
-	},
-	{
-		"title": "Maldini's Pizzeria",
-		"notes": "Maldini's Pizzeria is Co-owned by Vinny Pistone and Mr. Kebun.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Maldini%27s_Pizzeria",
-		"order": 0,
-		"strokecolor": "E759E1",
-		"fillcolor": "E759E1",
-		"latlngarray": [
-			{"lat": -65.419, "lng": -33.103},
-			{"lat": -65.419, "lng": -31.476},
-			{"lat": -66.087, "lng": -31.476},
-			{"lat": -66.087, "lng": -33.103}
 		]
+		
 	},
 	{
-		"title": "Rooster Rest",
-		"notes": "The Rooster's Rest is a local establishment privately-owned by Lang Buddha and members of the Cleanbois. While the business mostly operates as a chalet-style restaurant (serving mainly chicken-based products and ramen bowls), The Rooster's Rest also operates as a bar and grill, music venue, nightclub, hostel, the base of operations for Rooster Cab Co., a secretive host for D&D campaigns, and as a casino, strip club and brothel on the down-low.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Rooster%27s_Rest",
+		"title": "Yelllow Jack",
+		"notes": "",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
@@ -52,7 +35,7 @@
 	{
 		"title": "UWU Caf\u00e9",
 		"notes": "UwU Caf\u00e9 is a restaurant created and owned by Ash Ketchup. Benji Ramos, Sherry Paie and Attorney James Haze each own a small percentage of the company and help run it",
-		"wiki_link": "https://nopixel.fandom.com/wiki/UwU_Caf%C3%A9",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
@@ -80,6 +63,22 @@
 			{"lat": -48.388, "lng": -12.538},
 			{"lat": -48.118, "lng": -13.626},
 			{"lat": -47.333, "lng": -13.133}
+		]
+	},
+	{
+		"title": "The Casino",
+		"notes": "The Casino is owned and operated by Dean Watson and ran by Chief Executive Officer Cassie Cupcakes. Originally the CEO position was given to Kevin Whipaloo by both Dean Watson & Otto Delmar which he accepted with the terms being he would resign from Burger Shot. However, the next day Kevin ran out of town and has not been seen since. The Casino Heist is the fifth stage progression of bank robberies.",
+		"wiki_link": "https://nopixel.fandom.com/wiki/Diamond_Casino_and_Resort",
+		"order": 0,
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
+		"latlngarray": [
+			{"lat": -50.986, "lng": 12.406},
+			{"lat": -51.849, "lng": 14.548},
+			{"lat": -53.409, "lng": 12.911},
+			{"lat": -52.447, "lng": 10.442},
+			{"lat": -51.947, "lng": 11.181},
+			{"lat": -51.339, "lng": 12.015}
 		]
 	}
 ]

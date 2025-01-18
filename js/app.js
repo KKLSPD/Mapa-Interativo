@@ -127,13 +127,13 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'General',
+			name: 'Genal',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Neighborhoods',
+					name: 'Bairro',
 					icon: 'radar/radar_warehouse.png',
 					enabled: false,
-					url: 'data/neighborhoods.json',
+					url: 'data/Bairro.json',
 				}),
 				new CategoryModel({
 					name: 'Neutral',

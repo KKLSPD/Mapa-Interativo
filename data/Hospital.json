@@ -1,0 +1,93 @@
+[
+	{
+		"title": "Eclipse Medical Tower",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF005A",
+		"fillcolor": "FF005A",
+		"latlngarray": [
+			{"lat": -46.054, "lng": -36.046},
+			{"lat": -46.108, "lng": -32.823},
+			{"lat": -47.751, "lng": -33.120},
+			{"lat": -47.417, "lng": -36.174}
+		]
+	},
+	{
+		"title": "Pillbox Hospital Center",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF005A",
+		"fillcolor": "FF005A",
+		"latlngarray": [
+			{"lat": -61.606, "lng": -6.451},
+			{"lat": -61.663, "lng": -5.034},
+			{"lat": -61.715, "lng": -4.034},
+			{"lat": -61.731, "lng": -3.199},
+			{"lat": -62.405, "lng": -4.111},
+			{"lat": -62.765, "lng": -4.475},
+			{"lat": -62.371, "lng": -7.168}
+		]
+	},
+	{
+		"title": "Estação de Bombeiros - El Burro ",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -71.716, "lng": 21.124},
+			{"lat": -71.735, "lng": 18.447},
+			{"lat": -72.255, "lng": 18.458},
+			{"lat": -72.282, "lng": 21.732}
+		]
+	},
+	{
+		"title": "Viceroy Hospital Center",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -68.741, "lng": -37.279},
+			{"lat": -69.352, "lng": -40.693},
+			{"lat": -69.956, "lng": -39.550},
+			{"lat": -70.110, "lng": -37.221},
+			{"lat": -69.533, "lng": -35.592}
+		]
+	},
+	{
+		"title": "Mount Zonah Hospital",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -58.740, "lng": -32.773},
+			{"lat": -57.303, "lng": -27.950},
+			{"lat": -58.494, "lng": -25.358},
+			{"lat": -57.316, "lng": -27.893},
+			{"lat": -58.984, "lng": -25.478}
+		]
+	},
+	{
+		"title": "Paleto Medical Center",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": 75.725, "lng": -22.727},
+			{"lat": 75.949, "lng": -23.606},
+			{"lat": 76.372, "lng": -21.771},
+			{"lat": 76.137, "lng": -20.892}
+		]
+	}
+	
+	
+]

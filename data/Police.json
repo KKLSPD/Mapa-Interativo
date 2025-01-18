@@ -1,47 +1,62 @@
-[
-	{
-		"title": "Fort Zancudo",
-		"notes": "",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
-		"latlngarray": [
-			{"lat": 34.319, "lng": -95.567},
-			{"lat": 33.653, "lng": -91.306},
-			{"lat": 33.909, "lng": -87.636},
-			{"lat": 34.599, "lng": -84.209},
-			{"lat": 34.581, "lng": -80.715},
-			{"lat": 33.893, "lng": -75.128},
-			{"lat": 34.002, "lng": -71.766},
-			{"lat": 33.048, "lng": -67.708},
-			{"lat": 31.694, "lng": -64.807},
-			{"lat": 29.901, "lng": -62.719},
-			{"lat": 27.551, "lng": -62.434},
-			{"lat": 25.703, "lng": -63.248},
-			{"lat": 22.778, "lng": -62.721},
-			{"lat": 20.822, "lng": -62.237},
-			{"lat": 19.131, "lng": -63.049},
-			{"lat": 17.671, "lng": -64.786},
-			{"lat": 16.273, "lng": -67.895},
-			{"lat": 16.357, "lng": -72.245},
-			{"lat": 17.241, "lng": -76.222},
-			{"lat": 18.749, "lng": -79.194},
-			{"lat": 20.158, "lng": -81.719},
-			{"lat": 20.191, "lng": -84.017},
-			{"lat": 20.205, "lng": -86.971},
-			{"lat": 21.294, "lng": -88.531},
-			{"lat": 23.669, "lng": -89.454},
-			{"lat": 25.463, "lng": -91.959},
-			{"lat": 27.978, "lng": -96.566},
-			{"lat": 30.237, "lng": -99.083},
-			{"lat": 32.284, "lng": -99.325},
-			{"lat": 33.765, "lng": -98.402}
-		]
-	},
-	
-	{
-		"title": "Vespucci Police Department",
+[{
+	"title": "Fort Zancudo",
+	"notes": "",
+	"wiki_link": "",
+	"order": 0,
+	"strokecolor": "FF0000",
+	"fillcolor": "0000FF",
+	"latlngarray": [
+		{"lat": 34.319, "lng": -95.567},
+		{"lat": 33.653, "lng": -91.306},
+		{"lat": 33.909, "lng": -87.636},
+		{"lat": 34.599, "lng": -84.209},
+		{"lat": 34.581, "lng": -80.715},
+		{"lat": 33.893, "lng": -75.128},
+		{"lat": 34.002, "lng": -71.766},
+		{"lat": 33.048, "lng": -67.708},
+		{"lat": 31.694, "lng": -64.807},
+		{"lat": 29.901, "lng": -62.719},
+		{"lat": 27.551, "lng": -62.434},
+		{"lat": 25.703, "lng": -63.248},
+		{"lat": 22.778, "lng": -62.721},
+		{"lat": 20.822, "lng": -62.237},
+		{"lat": 19.131, "lng": -63.049},
+		{"lat": 17.671, "lng": -64.786},
+		{"lat": 16.273, "lng": -67.895},
+		{"lat": 16.357, "lng": -72.245},
+		{"lat": 17.241, "lng": -76.222},
+		{"lat": 18.749, "lng": -79.194},
+		{"lat": 20.158, "lng": -81.719},
+		{"lat": 20.191, "lng": -84.017},
+		{"lat": 20.205, "lng": -86.971},
+		{"lat": 21.294, "lng": -88.531},
+		{"lat": 23.669, "lng": -89.454},
+		{"lat": 25.463, "lng": -91.959},
+		{"lat": 27.978, "lng": -96.566},
+		{"lat": 30.237, "lng": -99.083},
+		{"lat": 32.284, "lng": -99.325},
+		{"lat": 33.765, "lng": -98.402}
+	]
+},
+{
+	"title": "San Andreas Departament of Fish and Wildlife",
+	"notes": "",
+	"wiki_link": "",
+	"order": 0,
+	"strokecolor": "FF0000",
+	"fillcolor": "0000FF",
+	"latlngarray": [
+		{"lat": -37.314, "lng": -3.925},
+		{"lat": -36.954, "lng": -3.255},		
+		{"lat": -36.382, "lng": -3.002},
+		{"lat": -35.849, "lng": -2.881},
+		{"lat": -35.911, "lng": -4.562},
+		{"lat": -36.849, "lng": -5.002},
+		{"lat": -37.147, "lng": -4.463}
+	]
+},
+{
+		"title": "Vespucci Departamento de Polícia",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -61,7 +76,7 @@
 		]
 	},
 	{
-		"title": "Davis PD",
+		"title": "Departamento de Davis",
 		"notes": "",
 		"order": 0,
 		"strokecolor": "FF0000",
@@ -74,7 +89,7 @@
 		]
 	},
 	{
-		"title": "Impound",
+		"title": "Apreensão",
 		"notes": "Onde os carros são apreendidos",
 		"order": 0,
 		"strokecolor": "FF0000",
@@ -88,7 +103,7 @@
 		]
 	},
 	{
-		"title": "Mission Row",
+		"title": "Departamento de Mission Row",
 		"notes": "The Los Santos Police Department, along with the Sheriff's Office, makes up the executive branch of Los Santos; together they ensure that the law is upheld and enforced.",
 		"wiki_link": "",
 		"order": 0,
@@ -161,6 +176,28 @@
 			{"lat": -59.883, "lng": 59.770},
 			{"lat": -57.451, "lng": 59.814},
 			{"lat": -56.975, "lng": 57.638}
+			
+		]
+	},
+	{
+		"title": "Penitenciária de Bolingbroke",
+		"notes": "",
+		"wiki_link": "https://live.staticflickr.com/65535/54274110300_53b06dbf8c_o.png",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 9.862, "lng": 38.975},
+			{"lat": 15.370, "lng": 39.019},
+			{"lat": 17.414, "lng": 36.515},
+			{"lat": 17.100, "lng": 32.647},
+			{"lat": 14.606, "lng": 30.077},
+			{"lat": 12.105, "lng": 29.110},
+			{"lat": 8.430, "lng": 29.351},
+			{"lat": 6.141, "lng": 33.175},
+			{"lat": 6.687, "lng": 36.383},
+			{"lat": 8.473, "lng": 38.141}
+			
 			
 		]
 	}
