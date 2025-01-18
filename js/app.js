@@ -127,7 +127,7 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'General',
+			name: 'Geral',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
@@ -150,7 +150,7 @@ $(function() {
 			]),
 		}),
 		new SectionModel({
-			name: 'Pontos',
+			name: 'Locais',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Gangues',
@@ -439,9 +439,9 @@ $(function() {
 					label: String(window.locs.length),
 				});
 				window.locs.push(marker);
-				// Check if coords mode is enabled
+				
 				if (showCoordinations) {
-					// Update/create info window
+					
 					updateCoordinationWindow(marker);
 				}
 			});
