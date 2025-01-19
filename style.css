@@ -15,7 +15,7 @@ header {
 	font-size: 19px;
 	height: 45px;
 	padding: 3px 6px;
-	background: rgba(0,0,0,.7);
+	background: rgba(12, 51, 124);
 	color: white;
 }
 
@@ -46,17 +46,17 @@ header a.active {
 }
 
 .btn-primary {
-	background: #27b298;
-	border-color: #00b888;
+	background: #001d53;
+	border-color: #001d53;
 }
 
 .btn-primary:hover {
-	background: #00b888;
-	border-color: #00b888;
+	background: #001d53;
+	border-color: #001d53;
 }
 
 .dropdown-item.active {
-	background: #27b298;
+	background: #001d53;
 }
 
 #map {
