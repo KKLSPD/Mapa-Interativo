@@ -1,5 +1,21 @@
 [
 	{
+		"title": "The Grove Street Families",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "008000",
+		"fillcolor": "008000",
+		"latlngarray": [
+			{"lat": -73.132, "lng": -16.248},
+			{"lat": -72.176, "lng": -20.027},
+			{"lat": -72.843, "lng": -22.114},
+			{"lat": -72.843, "lng": -22.114},
+			{"lat": -74.361, "lng": -19.939}
+		]
+	},
+
+	{
 		"title": "Ballas",
 		"notes": "",
 		"wiki_link": "",
