@@ -1,119 +1,93 @@
 [
 	{
-		"title": "Fleeca Bank 1",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": 16.073, "lng": 18.341},
-			{"lat": 16.073, "lng": 20.179},
-			{"lat": 14.999, "lng": 20.179},
-			{"lat": 14.999, "lng": 18.341}
-		]
-	},
-	{
-		"title": "Fleeca Bank 2",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": -45.449, "lng": -101.214},
-			{"lat": -45.491, "lng": -100.449},
-			{"lat": -46.043, "lng": -100.531},
-			{"lat": -45.983, "lng": -101.288}
-		]
-	},
-	{
-		"title": "Fleeca Bank 3",
-		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": -53.246, "lng": -26.209},
-			{"lat": -53.949, "lng": -22.806},
-			{"lat": -54.757, "lng": -23.103},
-			{"lat": -54.015, "lng": -26.608},
-			{"lat": -53.801, "lng": -26.399},
-			{"lat": -53.514, "lng": -26.245}
-		]
-	},
-	{
-		"title": "Paleto Bank",
-		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/City_Vault_(Pacific_Standard_Public_Deposit_Bank)",
-		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
-		"latlngarray": [
-			{"lat": 77.001, "lng": -19.252},
-			{"lat": 77.257, "lng": -18.059},
-			{"lat": 77.015, "lng": -17.055},
-			{"lat": 76.758, "lng": -18.198}
-		]
-	},
-	{
-		"title": "Bay City Bank",
+		"title": "Eclipse Medical Tower",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "FF005A",
+		"fillcolor": "FF005A",
 		"latlngarray": [
-			{"lat": -65.062, "lng": -53.673},
-			{"lat": -64.750, "lng": -52.816},
-			{"lat": -65.186, "lng": -52.080},
-			{"lat": -65.402, "lng": -52.970},
-			{"lat": -65.186, "lng": -53.344}
+			{"lat": -46.054, "lng": -36.046},
+			{"lat": -46.108, "lng": -32.823},
+			{"lat": -47.751, "lng": -33.120},
+			{"lat": -47.417, "lng": -36.174}
 		]
 	},
 	{
-		"title": "The Casino",
-		"notes": "The Casino is currently inactive.",
+		"title": "Pillbox Hospital Center",
+		"notes": "",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "FF005A",
+		"fillcolor": "FF005A",
 		"latlngarray": [
-			{"lat": -50.986, "lng": 12.406},
-			{"lat": -51.849, "lng": 14.548},
-			{"lat": -53.409, "lng": 12.911},
-			{"lat": -52.447, "lng": 10.442},
-			{"lat": -51.947, "lng": 11.181},
-			{"lat": -51.339, "lng": 12.015}
+			{"lat": -61.606, "lng": -6.451},
+			{"lat": -61.663, "lng": -5.034},
+			{"lat": -61.715, "lng": -4.034},
+			{"lat": -61.731, "lng": -3.199},
+			{"lat": -62.405, "lng": -4.111},
+			{"lat": -62.765, "lng": -4.475},
+			{"lat": -62.371, "lng": -7.168}
 		]
 	},
 	{
-		"title": "The City Vault",
+		"title": "Estação de Bombeiros - El Burro ",
 		"notes": "",
-		"wiki_link": "https://nopixel.fandom.com/wiki/City_Vault_(Pacific_Standard_Public_Deposit_Bank)",
+		"wiki_ling": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
 		"latlngarray": [
-			{"lat": -47.911, "lng": -7.819},
-			{"lat": -48.286, "lng": -6.359},
-			{"lat": -49.684, "lng": -7.149},
-			{"lat": -49.335, "lng": -8.622}
+			{"lat": -71.716, "lng": 21.124},
+			{"lat": -71.735, "lng": 18.447},
+			{"lat": -72.255, "lng": 18.458},
+			{"lat": -72.282, "lng": 21.732}
 		]
 	},
 	{
-		"title": "Vangelico Jewelry Store",
-		"notes": "Retailer of high-end jewelry and blood diamonds. A common place for criminals to heist.",
+		"title": "Viceroy Hospital Center",
+		"notes": "",
+		"wiki_ling": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
 		"latlngarray": [
-			{"lat": -56.639, "lng": -34.579},
-			{"lat": -56.184, "lng": -33.101},
-			{"lat": -57.782, "lng": -31.405},
-			{"lat": -57.993, "lng": -32.087},
-			{"lat": -56.851, "lng": -33.394}
+			{"lat": -68.741, "lng": -37.279},
+			{"lat": -69.352, "lng": -40.693},
+			{"lat": -69.956, "lng": -39.550},
+			{"lat": -70.110, "lng": -37.221},
+			{"lat": -69.533, "lng": -35.592}
+		]
+	},
+	{
+		"title": "Mount Zonah Hospital",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": -58.740, "lng": -32.773},
+			{"lat": -57.303, "lng": -27.950},
+			{"lat": -58.494, "lng": -25.358},
+			{"lat": -57.316, "lng": -27.893},
+			{"lat": -58.984, "lng": -25.478}
+		]
+	},
+	{
+		"title": "Paleto Medical Center",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": 75.725, "lng": -22.727},
+			{"lat": 75.949, "lng": -23.606},
+			{"lat": 76.372, "lng": -21.771},
+			{"lat": 76.137, "lng": -20.892}
 		]
 	}
+	
+	
 ]
