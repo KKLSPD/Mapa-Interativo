@@ -165,7 +165,7 @@ $(function() {
 					url: 'data/06.Posto.json',
 				}),
 				new CategoryModel({
-					name: 'Bancos',
+					name: 'Banco',
 					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
 					url: 'data/07.Bancos.json',
