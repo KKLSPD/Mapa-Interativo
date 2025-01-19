@@ -127,7 +127,7 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'Geral',
+			name: 'General',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
