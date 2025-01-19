@@ -7,26 +7,25 @@
 		"strokecolor": "00CAD8",
 		"fillcolor": "00CADA",
 		"latlngarray": [
-			{"lat": 78.059, "lng": -12.004},
-			{"lat": 77.942, "lng": -11.414},
-			{"lat": 77.875, "lng": -11.738},
-			{"lat": 77.991, "lng": -12.329}
+			{"lat": -56.109, "lng": -25.162},
+			{"lat": -55.628, "lng": -25.525},
+			{"lat": -54.623, "lng": -24.832},
+			{"lat": -54.839, "lng": -23.525},
+			{"lat": -55.770, "lng": -23.778}
 		]
 	},
 	{
-		"title": "Benny's Original Motor Works",
+		"title": "Benny's Antiga",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "00CAD8",
 		"fillcolor": "00CAD8",
 		"latlngarray": [
-			{"lat": -67.373, "lng": -16.101},
-			{"lat": -67.791, "lng": -13.025},
-			{"lat": -68.502, "lng": -13.805},
-			{"lat": -68.552, "lng": -15.474},
-			{"lat": -68.077, "lng": -14.979},
-			{"lat": -67.887, "lng": -16.617}
+			{"lat": -70.704, "lng": -21.962},
+			{"lat": -70.430, "lng": -22.017},
+			{"lat": -70.408, "lng": -20.457},
+			{"lat": -70.693, "lng": -20.358}
 		]
 	},
 	{
