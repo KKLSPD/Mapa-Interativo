@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; border: none; }
-body { font-family: sans-serif; color: #000000; }
+body { font-family: sans-serif; color: #ffffff; }
 li { list-style: none; }
 
 .left { float: left; }
@@ -16,7 +16,7 @@ header {
 	height: 45px;
 	padding: 3px 6px;
 	background: rgba(12, 51, 124);
-	color: white;
+	color: #001d53;
 }
 
 header p {
@@ -123,7 +123,7 @@ header a.active {
 
 .types .type {
 	background: #0c337c;
-	box-shadow: 0 2px 6px rgb(202, 0, 0),0 4px 15px -5px rgb(255, 255, 255);
+	box-shadow: 0 2px 6px rgb(255, 255, 255),0 4px 15px -5px rgb(255, 255, 255);
 	margin-top: 5px;
 	border-radius: 2px;
 	overflow: hidden;
