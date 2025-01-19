@@ -182,6 +182,12 @@ $(function() {
 					enabled: false,
 					url: 'data/09.Restaurantes.json',
 				}),
+				new CategoryModel({
+					name: 'Desmanche',
+					icon: 'radar/radar_desmanche.png',
+					enabled: false,
+					url: 'data/11.Desmanche.json',
+				}),
 			]),
 		}),
 		new SectionModel({
@@ -198,12 +204,6 @@ $(function() {
 					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
 					url: 'data/11.Area_Banco.json',
-				}),
-				new CategoryModel({
-					name: 'Desmanche',
-					icon: 'radar/radar_desmanche.png',
-					enabled: false,
-					url: 'data/11.Desmanche.json',
 				}),
 				new CategoryModel({
 					name: 'Área de Patrulha',
