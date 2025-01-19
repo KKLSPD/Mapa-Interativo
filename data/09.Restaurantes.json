@@ -22,19 +22,18 @@
 		"strokecolor": "E759E1",
 		"fillcolor": "E759E1",
 		"latlngarray": [
-			{"lat": -46.792, "lng": -21.512},
-			{"lat": -46.792, "lng": -19.018},
-			{"lat": -47.077, "lng": -18.754},
-			{"lat": -48.099, "lng": -18.699},
-			{"lat": -48.107, "lng": -19.358},
-			{"lat": -48.048, "lng": -20.182},
-			{"lat": -47.989, "lng": -20.644},
-			{"lat": -47.967, "lng": -21.512}
+			{"lat": 26.250, "lng": 42.549},
+			{"lat": 24.072, "lng": 41.033},
+			{"lat": 22.924, "lng": 41.264},
+			{"lat": 23.332, "lng": 43.643},
+			{"lat": 23.704, "lng": 44.181},
+			{"lat": 24.437, "lng": 44.500},
+			{"lat": 25.443, "lng": 44.083}
 		]
 	},
 	{
 		"title": "UWU Caf\u00e9",
-		"notes": "UwU Caf\u00e9 is a restaurant created and owned by Ash Ketchup. Benji Ramos, Sherry Paie and Attorney James Haze each own a small percentage of the company and help run it",
+		"notes": "",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "E759E1",
@@ -67,11 +66,11 @@
 	},
 	{
 		"title": "The Casino",
-		"notes": "The Casino is owned and operated by Dean Watson and ran by Chief Executive Officer Cassie Cupcakes. Originally the CEO position was given to Kevin Whipaloo by both Dean Watson & Otto Delmar which he accepted with the terms being he would resign from Burger Shot. However, the next day Kevin ran out of town and has not been seen since. The Casino Heist is the fifth stage progression of bank robberies.",
+		"notes": " ",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "FFD700",
-		"fillcolor": "FFD700",
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
 		"latlngarray": [
 			{"lat": -50.986, "lng": 12.406},
 			{"lat": -51.849, "lng": 14.548},
@@ -80,5 +79,49 @@
 			{"lat": -51.947, "lng": 11.181},
 			{"lat": -51.339, "lng": 12.015}
 		]
+	},{
+		"title": "Bean Machine",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -67.410, "lng": -11.613},
+			{"lat": -67.944, "lng": -12.019},
+			{"lat": -68.030, "lng": -11.481},
+			{"lat": -67.503, "lng": -10.876}
+		]
+	},
+	{
+		"title": "Tequi-La-La",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -46.795, "lng": -30.526},
+			{"lat": -46.682, "lng": -32.734},
+			{"lat": -47.867, "lng": -33.052},
+			{"lat": -48.022, "lng": -30.690}
+		
+		]
+	},
+	{
+		"title": "The Hen House",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": 75.459, "lng": -23.708},
+			{"lat": 75.657, "lng": -24.532},
+			{"lat": 75.918, "lng": -23.477},
+			{"lat": 75.727, "lng": -22.587}
+		
+		]
 	}
 ]
+
