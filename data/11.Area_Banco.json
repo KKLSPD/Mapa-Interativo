@@ -13,6 +13,28 @@
 			{"lat": 8.578, "lng": 25.501}
 		]
 	},
+	
+	{
+		"title": "Banco Fleeca - Chaves",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "5DC336",
+		"latlngarray": [
+			{"lat": -58.013, "lng": -13.725},
+			{"lat": -57.485, "lng": -13.615},
+			{"lat": -53.519, "lng": -11.154},
+			{"lat": -55.209, "lng": -2.738},
+			{"lat": -55.558, "lng": 0.184},
+			{"lat": -56.126, "lng": 0.096},
+			{"lat": -56.673, "lng": 0.404},
+			{"lat": -57.319, "lng": 0.360},
+			{"lat": -59.022, "lng": -1.925},
+			{"lat": -59.472, "lng": -2.628},
+			{"lat": -59.728, "lng": -4.101}
+		]
+	},
 	{
 		"title": "Banco Fleeca - Great Ocean",
 		"notes": "",
