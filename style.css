@@ -38,7 +38,7 @@ header li:last-child {
 header a {
 	color: rgba(0, 29, 83);
 	text-decoration: none;
-	color: rgba(0, 29, 83);
+	color: rgb(255, 255, 255);
 }
 
 header a.active {
