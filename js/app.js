@@ -127,7 +127,7 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'General',
+			name: 'Geral',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
@@ -145,7 +145,7 @@ $(function() {
 					name: 'Hospital',
 					icon: 'radar/radar_hospital.png',
 					enabled: true,
-					url: 'data/03.Hospital.json',
+					url: 'data/04.Hospital.json',
 				}),
 			]),
 		}),
