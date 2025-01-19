@@ -36,13 +36,13 @@ header li:last-child {
 }
 
 header a {
-	color: white;
+	color: rgba(0, 29, 83);
 	text-decoration: none;
-	color: #ddd;
+	color: rgba(0, 29, 83);
 }
 
 header a.active {
-	color: white;
+	color: #001d53;
 }
 
 .btn-primary {
