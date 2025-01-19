@@ -207,7 +207,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Área de Patrulha',
-					icon: 'radar/radar_office_for_sale.png',
+					icon: 'radar/radar_car_police.png',
 					enabled: false,
 					url: 'data/13.Area_Patrulha.json',
 				}),
