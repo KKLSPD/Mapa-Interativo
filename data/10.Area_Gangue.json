@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Marabunta",
+		"title": "Marabunta Grande",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -35,8 +35,8 @@
 		]
 	},
 	{
-		"title": "Marabunta",
-		"notes": "",
+		"title": "Marabunta Grande",
+		"notes": "Uma gangue violenta formada por imigrantes centro-americanos. São conhecidos pelo tráfico humano, drogas e práticas de intimidação, com uma forte inspiração em cartéis.",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "4169E1",
@@ -67,7 +67,7 @@
 	},
 	{
 		"title": "Vagos",
-		"notes": "",
+		"notes": "Uma gangue latina que domina o tráfico de drogas e armas nas áreas periféricas de Los Santos. Reconhecidos por sua lealdade e brutalidade, os Vagos são altamente territoriais e hostis a qualquer um que invada suas zonas.",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFFF00",
@@ -128,7 +128,7 @@
 	},
 	{
 		"title": "Ballas",
-		"notes": "",
+		"notes": "Gangue rival histórica dos Families, conhecida por sua violência e domínio no tráfico de drogas e armas em Los Santos. Controlam parte da Grove Street, o que aumenta ainda mais a tensão territorial.",
 		"wiki_link": "",
 		"order": 1,
 		"strokecolor": "551A8B",
@@ -204,7 +204,7 @@
 	{
 		"title": "The Grove Street Families",
 		"notes": "",
-		"wiki_link": "",
+		"wiki_link": "Uma das gangues mais antigas e respeitadas de Los Santos. Os Families representam a resistência das ruas contra seus rivais, os Ballas, e lutam para manter seu território no sul da cidade.",
 		"order": 0,
 		"strokecolor": "008000",
 		"fillcolor": "008000",
