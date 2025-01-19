@@ -122,8 +122,8 @@ header a.active {
 }
 
 .types .type {
-	background: #001d53;
-	box-shadow: 0 2px 6px rgb(255, 255, 255),0 4px 15px -5px rgb(255, 255, 255);
+	background: #0c337c;
+	box-shadow: 0 2px 6px rgb(202, 0, 0),0 4px 15px -5px rgb(255, 255, 255);
 	margin-top: 5px;
 	border-radius: 2px;
 	overflow: hidden;
