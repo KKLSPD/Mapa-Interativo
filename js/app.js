@@ -138,54 +138,54 @@ $(function() {
 				new CategoryModel({
 					name: 'Mecânica',
 					icon: 'radar/radar_acsr_race_hotring.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/02.Mecanica.json',
 				}),
 				new CategoryModel({
 					name: 'Hospital',
 					icon: 'radar/radar_hospital.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/04.Hospital.json',
 				}),
 			]),
 		}),
 		new SectionModel({
-			name: '4.0',
+			name: 'Locais',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Comunidades',
 					icon: 'General/wall-breach.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/05.Comunidades.json',
 				}),
 				new CategoryModel({
 					name: 'Posto de Gasolina',
 					icon: 'radar/radar_weed_stash.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/06.Posto.json',
 				}),
 				new CategoryModel({
 					name: 'Bancos',
 					icon: 'radar/radar_heist.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/07.Bancos.json',
 				}),
 				new CategoryModel({
 					name: 'Policia',
 					icon: 'radar/radar_police_station.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/08.Policia.json',
 				}),
 				new CategoryModel({
 					name: 'Restaurantes',
 					icon: 'radar/radar_bar.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/09.Restaurantes.json',
 				}),
 			]),
 		}),
 		new SectionModel({
-			name: '3.0',
+			name: 'Área',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Área de Gangue',
