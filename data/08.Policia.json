@@ -151,7 +151,12 @@
 			{"lat": 60.901, "lng": 66.385},
 			{"lat": 60.286, "lng": 64.452},
 			{"lat": 59.974, "lng": 64.331}
-		]
+		],
+		"video": {
+			"yt_id": "P6hhjIfGjsY",
+			"yt_user_display": "sahp_kamikaze",
+			"yt_user_link": "c/sahp_kamikaze"
+		}
 	},
 	{
 		"title": "Departamento de Sandy Shores",
