@@ -201,7 +201,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Desmanche',
-					icon: 'radar/radar_police_station.png',
+					icon: 'radar/radar_desmanche.png',
 					enabled: false,
 					url: 'data/11.Desmanche.json',
 				}),
