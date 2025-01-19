@@ -205,6 +205,12 @@ $(function() {
 					enabled: false,
 					url: 'data/11.Desmanche.json',
 				}),
+				new CategoryModel({
+					name: 'Área de Patrulha',
+					icon: 'radar/radar_office_for_sale.png',
+					enabled: false,
+					url: 'data/13.Area_Patrulha.json',
+				}),
 			]),
 		}),
 	]);
