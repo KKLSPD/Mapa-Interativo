@@ -230,8 +230,12 @@
 			{"lat": -70.431, "lng": -10.890},
 			{"lat": -70.702, "lng": -9.670},
 			{"lat": -71.250, "lng": -10.841}
-		]
+		],
+		"video": {
+			"yt_id": "FsWdWgUWQdQ",
+			"yt_user_display": "PEQUEPENEWS",
+			"yt_user_link": "c/PEQUEPENEWS"
 		}
 	
-	
+	}
 ]
