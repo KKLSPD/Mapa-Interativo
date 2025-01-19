@@ -42,7 +42,7 @@ header a {
 }
 
 header a.active {
-	color: #ffffff;
+	color: #ff0000;
 }
 
 .btn-primary {
@@ -134,7 +134,7 @@ header a.active {
 .types .type h3 {
 	font-size: 0.9em;
 	padding: 3px 10px;
-	background: #eee;
+	background: #00ff40;
 	cursor: pointer;
 }
 
@@ -187,7 +187,7 @@ header a.active {
 }
 
 .types .details {
-	color: #ffffff;
+	color: #0026ff;
 	text-decoration: none;
 	float: right;
 	margin-top: 4px;
