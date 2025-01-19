@@ -160,13 +160,13 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Posto de Gasolina',
-					icon: 'radar/radar_weed_stash.png',
+					icon: 'radar/radar_posto.png',
 					enabled: false,
 					url: 'data/06.Posto.json',
 				}),
 				new CategoryModel({
 					name: 'Bancos',
-					icon: 'radar/radar_heist.png',
+					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
 					url: 'data/07.Bancos.json',
 				}),
@@ -189,13 +189,13 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Área de Gangue',
-					icon: 'General/wall-breach.png',
+					icon: 'radar/arma.png',
 					enabled: false,
 					url: 'data/10.Area_Gangue.json',
 				}),
 				new CategoryModel({
 					name: 'Área do Banco',
-					icon: 'radar/radar_heist.png',
+					icon: 'radar/radar_office_for_sale.png',
 					enabled: false,
 					url: 'data/11.Area_Banco.json',
 				}),
