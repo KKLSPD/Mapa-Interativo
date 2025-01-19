@@ -136,6 +136,24 @@
 		]
 	},
 	{
+		"title": "San Andres Highway Patrol",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 58.508, "lng": 65.067},
+			{"lat": 58.947, "lng": 69.571},
+			{"lat": 59.196, "lng": 69.604},
+			{"lat": 59.520, "lng": 68.000},
+			{"lat": 60.789, "lng": 66.825},
+			{"lat": 60.901, "lng": 66.385},
+			{"lat": 60.286, "lng": 64.452},
+			{"lat": 59.974, "lng": 64.331}
+		]
+	},
+	{
 		"title": "Departamento de Sandy Shores",
 		"notes": "The Senora Desert Sheriff's Office ensures crime is upheld and enforced.",
 		"wiki_link": "",
