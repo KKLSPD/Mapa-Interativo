@@ -131,19 +131,19 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
-					icon: 'radar/radar_warehouse.png',
+					icon: 'icone/icone_warehouse.png',
 					enabled: false,
 					url: 'data/01.Bairro.json',
 				}),
 				new CategoryModel({
 					name: 'Mecânica',
-					icon: 'radar/radar_acsr_race_hotring.png',
+					icon: 'icone/icone_acsr_race_hotring.png',
 					enabled: false,
 					url: 'data/02.Mecanica.json',
 				}),
 				new CategoryModel({
 					name: 'Hospital',
-					icon: 'radar/radar_hospital.png',
+					icon: 'icone/icone_hospital.png',
 					enabled: false,
 					url: 'data/04.Hospital.json',
 				}),
@@ -160,31 +160,31 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Posto de Gasolina',
-					icon: 'radar/radar_posto.png',
+					icon: 'icone/icone_posto.png',
 					enabled: false,
 					url: 'data/06.Posto.json',
 				}),
 				new CategoryModel({
 					name: 'Banco',
-					icon: 'radar/radar_office_for_sale.png',
+					icon: 'icone/icone_office_for_sale.png',
 					enabled: false,
 					url: 'data/07.Bancos.json',
 				}),
 				new CategoryModel({
 					name: 'Policia',
-					icon: 'radar/radar_police_station.png',
+					icon: 'icone/icone_police_station.png',
 					enabled: false,
 					url: 'data/08.Policia.json',
 				}),
 				new CategoryModel({
 					name: 'Restaurantes',
-					icon: 'radar/radar_bar.png',
+					icon: 'icone/icone_bar.png',
 					enabled: false,
 					url: 'data/09.Restaurantes.json',
 				}),
 				new CategoryModel({
 					name: 'Desmanche',
-					icon: 'radar/radar_desmanche.png',
+					icon: 'icone/icone_desmanche.png',
 					enabled: false,
 					url: 'data/11.Desmanche.json',
 				}),
@@ -195,19 +195,19 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Área de Gangue',
-					icon: 'radar/radar_arma.png',
+					icon: 'icone/icone_arma.png',
 					enabled: false,
 					url: 'data/10.Area_Gangue.json',
 				}),
 				new CategoryModel({
 					name: 'Área do Banco',
-					icon: 'radar/radar_office_for_sale.png',
+					icon: 'icone/icone_office_for_sale.png',
 					enabled: false,
 					url: 'data/11.Area_Banco.json',
 				}),
 				new CategoryModel({
 					name: 'Área de Patrulha',
-					icon: 'radar/radar_car_police.png',
+					icon: 'icone/icone_car_police.png',
 					enabled: false,
 					url: 'data/13.Area_Patrulha.json',
 				}),
