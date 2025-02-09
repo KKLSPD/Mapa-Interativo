@@ -245,6 +245,12 @@
 			{"lat": -57.451, "lng": 59.814},
 			{"lat": -56.975, "lng": 57.638}
 			
+		],
+		
+		"images": [
+		  { "id": 1,
+		  "headline": "Bandeira:", 
+		  "url": "https://live.staticflickr.com/65535/54317812154_a55024455f_o.png" }
 		]
 	},
 	{
