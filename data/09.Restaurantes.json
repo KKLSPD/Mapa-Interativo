@@ -32,6 +32,21 @@
 		]
 	},
 	{
+		"title": "Pizza This",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "E759E1",
+		"fillcolor": "E759E1",
+		"latlngarray": [
+			{"lat": -72.058, "lng": -3.382},
+			{"lat": -72.519, "lng": -2.470},
+			{"lat": -72.393, "lng": -1.821},
+			{"lat": -72.247, "lng": -2.393},
+			{"lat": -71.891, "lng": -2.623}
+		]
+	},
+	{
 		"title": "UWU Caf\u00e9",
 		"notes": "",
 		"wiki_link": "",

@@ -86,6 +86,20 @@
 		]
 	},
 	{
+		"title": "Banco Life Invader ",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -58.358, "lng": -50.716},
+			{"lat": -58.690, "lng": -50.397},
+			{"lat": -58.409, "lng": -49.397},
+			{"lat": -58.097, "lng": -49.639}
+		]
+	},
+	{
 		"title": "Banco Central",
 		"notes": "",
 		"wiki_link": "",

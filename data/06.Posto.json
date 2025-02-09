@@ -83,6 +83,71 @@
 		]
 	},
 	{
+		"title": "Posto do Gasolina INNOCENSE",
+		"notes": "",
+		"order": 1,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -71.672, "lng": -25.062},
+			{"lat": -72.183, "lng": -25.084},
+			{"lat": -72.156, "lng": -23.173},
+			{"lat": -71.665, "lng": -23.173}
+		]
+	},
+	{
+		"title": "Posto do Gasolina Davis",
+		"notes": "",
+		"order": 1,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -72.657, "lng": -10.717},
+			{"lat": -72.439, "lng": -10.079},
+			{"lat": -72.791, "lng": -9.102},
+			{"lat": -72.894, "lng": -9.849}
+		]
+	},
+	{
+		"title": "Posto do Gasolina Vespucci",
+		"notes": "",
+		"order": 1,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -67.408, "lng": 8.214},
+			{"lat": -67.357, "lng": 9.423},
+			{"lat": -67.884, "lng": 9.401},
+			{"lat": -67.884, "lng": 8.258}
+		]
+	},
+	{
+		"title": "Posto do Gasolina El Rancho",
+		"notes": "",
+		"order": 1,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -71.082, "lng": 19.656},
+			{"lat": -71.484, "lng": 19.624},
+			{"lat": -71.484, "lng": 20.920},
+			{"lat": -71.082, "lng": 20.469}
+		]
+	},
+	{
+		"title": "Posto do Gasolina do Rosa",
+		"notes": "",
+		"order": 1,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -57.498, "lng": -57.334},
+			{"lat": -56.939, "lng": -56.169},
+			{"lat": -57.468, "lng": -55.345},
+			{"lat": -57.990, "lng": -56.543}
+		]
+	},
+	{
 		"title": "Posto de Paleto Bay",
 		"notes": "",
 		"order": 1,

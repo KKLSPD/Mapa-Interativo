@@ -41,5 +41,47 @@
 			{"lat": -77.019, "lng": 11.621},
 			{"lat": -76.730, "lng": 11.775}
 		]
+	},
+	{
+		"title": "Mecânica BOULEVAR DEL PERRO",
+		"notes": "Reparo",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00CAD8",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -60.126, "lng": -56.712},
+			{"lat": -60.399, "lng": -56.383},
+			{"lat": -59.824, "lng": -54.691},
+			{"lat": -59.575, "lng": -55.053}
+		]
+	},
+	{
+		"title": "Los Santos Customs - Paleto",
+		"notes": "Reparo",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00CAD8",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": 77.931, "lng": -12.031},
+			{"lat": 77.835, "lng": -11.603},
+			{"lat": 77.938, "lng": -11.163},
+			{"lat": 78.023, "lng": -11.625}
+		]
+	},
+	{
+		"title": "Los Santos Customs - Rota 69",
+		"notes": "Reparo",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00CAD8",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": 14.557, "lng": 18.878},
+			{"lat": 13.855, "lng": 18.867},
+			{"lat": 13.855, "lng": 19.603},
+			{"lat": 14.547, "lng": 19.603}
+		]
 	}
 ]

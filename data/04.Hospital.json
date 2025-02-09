@@ -72,6 +72,21 @@
 			{"lat": 76.372, "lng": -21.771},
 			{"lat": 76.137, "lng": -20.892}
 		]
+	},
+
+	{
+		"title": "Hospital de Sandy Shores",
+		"notes": "",
+		"wiki_ling": "",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": 39.974, "lng": 36.710},
+			{"lat": 39.143, "lng": 37.336},
+			{"lat": 38.114, "lng": 35.062},
+			{"lat": 39.024, "lng": 34.480}
+		]
 	}
 	
 	
