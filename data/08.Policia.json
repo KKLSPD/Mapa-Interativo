@@ -259,8 +259,10 @@
 			{"lat": 6.141, "lng": 33.175},
 			{"lat": 6.687, "lng": 36.383},
 			{"lat": 8.473, "lng": 38.141}
-			
-			
+		],
+		
+		"images": [
+		  { "id": 1, "headline": "Imagem 1", "url": "https://live.staticflickr.com/65535/54274110300_53b06dbf8c_o.png" }
 		]
 	}
 ]
