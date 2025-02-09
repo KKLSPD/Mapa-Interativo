@@ -159,6 +159,8 @@
 			{"lat": -63.822, "lng": -17.811},
 			{"lat": -68.609, "lng": -22.052},
 			{"lat": -68.896, "lng": -22.206}
-		]
+		],	"images": [
+			{ "id": 1, "headline": "Imagem 1", "url": "https://live.staticflickr.com/65535/54274815125_b58896041c_o.png" }
+		  ]
 	}
 ]
