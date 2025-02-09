@@ -1,6 +1,6 @@
 [{
 	"title": "Fort Zancudo",
-	"notes": "",
+	"notes": "Construída durante a Segunda Guerra Mundial, Fort Zancudo começou como um campo de treinamento para pilotos e engenheiros militares. Com o tempo, a base expandiu suas operações, tornando-se um importante centro para defesa aérea, tecnologia de vigilância e testes de aeronaves experimentais.",
 	"wiki_link": "",
 	"order": 0,
 	"strokecolor": "FF0000",
@@ -36,7 +36,13 @@
 		{"lat": 30.237, "lng": -99.083},
 		{"lat": 32.284, "lng": -99.325},
 		{"lat": 33.765, "lng": -98.402}
-	]
+	],
+		"images": [
+		{ "id": 1,
+		"headline": "Imagem aérea:", 
+		"url": "https://live.staticflickr.com/65535/54317499634_47ed5dbd81_o.png" }
+	  ]
+  
 },
 {
 	"title": "San Andreas Departament of Fish and Wildlife",
