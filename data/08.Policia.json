@@ -117,7 +117,7 @@
 		]
 	},
 	{
-		"title": "Departamento SADFW ",
+		"title": "Departamento San Andreas Departament of Fish and Wildlife ",
 		"notes": "",
 		"wiki_link": "",
 		"order": 0,
@@ -190,8 +190,8 @@
 	},
 	{
 		"title": "Departamento de Sandy Shores",
-		"notes": "The Senora Desert Sheriff's Office ensures crime is upheld and enforced.",
-		"wiki_link": "",
+		"notes": "A Blaine County Sheriff's Office é o órgão local responsável pela manutenção da segurança em todo o Condado de Blaine. Os Sheriff Deputies têm o dever de servir e proteger as comunidades de Paleto Bay, Sandy Shores e Grapeseed.A estrutura hierárquica da BSCO é composta pelo Sheriff, Undersheriff, Sheriff's Assistant e Deputies.",
+		"wiki_link": "https://bcso.netlify.app/",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "0000FF",
@@ -200,7 +200,11 @@
 			{"lat": 40.912, "lng": 38.801},
 			{"lat": 40.061, "lng": 39.428},
 			{"lat": 39.274, "lng": 37.692}
-		]
+		],
+		"image": {
+		"url": "https://live.staticflickr.com/65535/54317014080_336cb4900c_o.png",
+		"alt": "Imagem BCSO"
+	}
 	},
 	{
 		"title": "Departamento de Justiça",
