@@ -201,10 +201,11 @@
 			{"lat": 40.061, "lng": 39.428},
 			{"lat": 39.274, "lng": 37.692}
 		],
-		"image": {
-		"url": "https://live.staticflickr.com/65535/54317014080_336cb4900c_o.png",
-		"alt": "Imagem BCSO"
-	}
+		
+			"images": [
+			  { "id": 1, "headline": "Imagem 1", "url": "https://live.staticflickr.com/65535/54317131270_84c4c30853_o.png" },
+			  { "id": 2, "headline": "Imagem 2", "url": "https://live.staticflickr.com/65535/54317131270_84c4c30853_o.png" }
+			]
 	},
 	{
 		"title": "Departamento de Justiça",
