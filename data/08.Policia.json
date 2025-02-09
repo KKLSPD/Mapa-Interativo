@@ -190,7 +190,7 @@
 	},
 	{
 		"title": "Departamento de Sandy Shores",
-		"notes": "A Blaine County Sheriff's Office é o órgão local responsável pela manutenção da segurança em todo o Condado de Blaine. Os Sheriff Deputies têm o dever de servir e proteger as comunidades de Paleto Bay, Sandy Shores e Grapeseed.A estrutura hierárquica da BSCO é composta pelo Sheriff, Undersheriff, Sheriff's Assistant e Deputies.",
+		"notes": "A Blaine County Sheriff's Office é o órgão local responsável pela manutenção da segurança em todo o Condado de Blaine. Os Sheriff Deputies têm o dever de servir e proteger as comunidades de Paleto Bay, Sandy Shores e Grapeseed.",
 		"wiki_link": "https://bcso.netlify.app/",
 		"order": 0,
 		"strokecolor": "FF0000",
@@ -204,7 +204,12 @@
 		
 			"images": [
 			  { "id": 1, "headline": "Imagem 1", "url": "https://live.staticflickr.com/65535/54317274810_138c2f3726_o.png" }
-			]
+			],
+			"video": {
+				"yt_id": "P6hhjIfGjsY",
+				"yt_user_display": "sahp_kamikaze",
+				"yt_user_link": "c/sahp_kamikaze"
+			}
 	},
 	{
 		"title": "Departamento de Justiça",
