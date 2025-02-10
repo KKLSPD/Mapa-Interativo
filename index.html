@@ -1,131 +1,132 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-	<meta charset="utf-8">
-	<title>KK 2.0 Mapa Interativo</title>
-	<link rel="icon" href="icons/LSPD.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interativo - Burger Shot</title>
+    <link rel="icon" href="icons/LSPD.ico"/>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Maps API -->
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&key=SUA_CHAVE_AQUI"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="fontawesome/css/font-awesome.css">
-	<link rel="stylesheet" href="style.css">
-
-	<script src="js/libs/jquery-min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="js/libs/underscore-min.js"></script>
-	<script src="js/libs/backbone-min.js"></script>
-	<script src="js/libs/handlebars.js"></script>
-	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&key="></script>
-	<script src="js/libs/maplabel-compiled.js"></script>
-	<script src="js/app.js"></script>
-
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100vh; /* Ocupa toda a altura da tela */
+            width: 100vw;  /* Ocupa toda a largura da tela */
+        }
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .left, header .right {
+            margin: 0;
+        }
+        header .right {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<p class="left" style="padding-top: 5px;">
-			<a href="">LSPD Mapa Interativo</a>
-		</p>
-		<ul class="right">
-			<div class="dropdown">
-				<a href="" target="_blank"><button class="btn btn-primary">Rotas</button></a>
-				<button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Medir Distância</button>
-				<button class="btn btn-primary" id="createzone" onclick="printArray()">Adicionar Pin</button>
-				<button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Tipo de Mapa
-				</button>
-				<div class="dropdown-menu" aria-labelledby="ddmenu">
-					<a href="#" id="Atlas"           class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Atlas');           $(this).addClass('active');">Maps</a>
-					<a href="#" id="Satellite"       class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satellite');       $(this).addClass('active');">Satelite</a>
-					<a href="#" id="Road"            class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Road');            $(this).addClass('active');">Estrada</a>
-				</div>
-			</div>
+    <header>
+        <p class="left">
+            <a href="">LSPD Mapa Interativo</a>
+        </p>
+        <ul class="right">
+            <div class="dropdown">
+                <a href="" target="_blank"><button class="btn btn-primary">Rotas</button></a>
+                <button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Medir Distância</button>
+                <button class="btn btn-primary" id="createzone" onclick="printArray()">Adicionar Pin</button>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tipo de Mapa
+                </button>
+                <div class="dropdown-menu" aria-labelledby="ddmenu">
+                    <a href="#" id="Atlas" class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Atlas'); $(this).addClass('active');">Maps</a>
+                    <a href="#" id="Satellite" class="dropdown-item" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satellite'); $(this).addClass('active');">Satelite</a>
+                    <a href="#" id="Road" class="dropdown-item" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Road'); $(this).addClass('active');">Estrada</a>
+                </div>
+            </div>
+        </ul>
+    </header>
 
-		</ul>
-	</header>
+    <div id="map" style="background:rgb(43, 164, 210);"></div>
 
-	<div id="map" style="background:rgb(43, 164, 210);"></div>
+    <script>
+        // Dados JSON (pode ser carregado de um arquivo externo)
+        const jsonData = {
+            "title": "Burger Shot",
+            "strokecolor": "#E759E1",
+            "linewidth": 16,
+            "latlngarray": [
+                {"lat": -66.046, "lng": -50.898},
+                {"lat": -65.492, "lng": -48.888},
+                {"lat": -66.322, "lng": -47.603},
+                {"lat": -66.828, "lng": -49.767}
+            ]
+        };
 
-	<script type="x/template" id="sectionTemplate">
-		{{#each sections as | section |}}
-			<section class="type">
-				<h3>{{name}}</h3>
-				<ul>
-					{{#each categories}}
-						<li><label><input type="checkbox" {{#if enabled}}checked{{/if}} value="{{name}}" data-section="{{section.name}}"> <img src="icons/{{icon}}"> {{name}}</label> <a href="#" class="details" data-section="{{section.name}}" data-name="{{name}}"><i class="icon-chevron-sign-right"></i></a></li>
-					{{/each}}					
-					{{#ifEquals name "General"}}
-						<li><label><input type="checkbox" {{#if enabled}}checked{{/if}} value="labels"> <img src="icons/icone/icone_Legenda.png"> Texto</label> <a href="#" class="details" data-name="Labels"></a></li>
-					{{/ifEquals}}
+        // Inicialização do mapa
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -66.046, lng: -50.898 }, // Centro inicial do mapa
+                zoom: 8,
+                mapTypeId: 'roadmap'
+            });
 
-				</ul>
-			</section>
-		{{/each}}
-	</script>
+            // Desenhar a linha no mapa
+            const pathCoordinates = jsonData.latlngarray.map(coord => ({
+                lat: coord.lat,
+                lng: coord.lng
+            }));
 
-	<script type="x/template" id="categoryDetailsTemplate">
-		<section class="type">
-			<h3><a href="#" class="back details"><i class="icon-chevron-sign-left"></i></a> {{category}}</h3>
-			<ul class="listview">
-				{{#with this as | root |}}
-				{{#each locations}}
-					<li data-section="{{root.section}}" data-name="{{root.category}}"><div style="height:20px;width:20px;background-color:#{{fillcolor}};border: 3px solid #{{strokecolor}}; display:inline-block;margin-right:10px;"></div><label>{{title}}</label></li>
-				{{/each}}
-				{{/with}}
-			</ul>
-		</section>
-	</script>
+            const line = new google.maps.Polyline({
+                path: pathCoordinates,
+                geodesic: true,
+                strokeColor: jsonData.strokecolor,
+                strokeOpacity: 1.0,
+                strokeWeight: jsonData.linewidth
+            });
 
-	<script type="x/template" id="markerPopupTemplate2">
-		<div id="info-window" style="max-width:420px;">
-			<div class="scrollable">
-				<span class="header">
-					<h3>{{title}}</h3>
-				</span>
-				<div id="info-body">
-					{{#if notes}}
-						<br>
-						<p class="notes">{{notes}}</p>
-					{{/if}}
-					{{#if video}}
-						<div class="video-{{id}}">
-							<br>
-							<h4>Video</h4>
-							<div class="youtubewrapper">
-								<iframe width="100%" src="//www.youtube.com/embed/{{video.yt_id}}?theme=light&amp;autoplay=0&amp;autohide=1&amp;iv_load_policy=3&amp;rel=0&amp;showinfo=0&amp;loop=1{{#if video.start}}&amp;start={{timestampToSeconds video.start}}{{/if}}{{#if video.end}}&amp;end={{timestampToSeconds video.end}}{{/if}}" frameborder="0" allowfullscreen></iframe>
-							</div>
-							{{#if video.yt_user_link}}
-								<p>
-									<a href="//www.youtube.com/{{video.yt_user_link}}" style="color:#222;font-size:.8em;float:right;" target="_blank">
-										Video by {{video.yt_user_display}}
-									</a>
-								</p>
-							{{/if}}
-						</div>
-					{{/if}}
-					{{#if images}}
-						<br>
-				 		<h4>Fotos</h4>
-					{{/if}}
-					{{#each images}}
-						<div class="images-{{id}}">
-						 	<span>{{headline}}</span>
-							 <br>
-						 	<img src="{{url}}" class="image-{{id}}">
-						</div>
-						<br>
-				 	{{/each}}
-					{{#if wiki_link}}
-						<hr>
-						<a target="_blank" href="{{wiki_link}}"> Link externo: {{title}}! (Click) </a>
-					{{/if}}
-				</div>
-			</div>
-		</div>
-	</script>
+            line.setMap(map);
 
-	<div id="typeDetails" class="types"></div>
+            // Adicionar marcadores para cada coordenada
+            jsonData.latlngarray.forEach(coord => {
+                new google.maps.Marker({
+                    position: { lat: coord.lat, lng: coord.lng },
+                    map: map,
+                    title: jsonData.title
+                });
+            });
+        }
 
-	<div id="types" class="types"></div>
+        // Carregar o mapa após a API do Google Maps ser carregada
+        google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
 </body>
 </html>

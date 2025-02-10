@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>KK 2.0 Mapa Interativo</title>
+	<link rel="icon" href="icons/LSPD.ico"/>
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="js/libs/jquery-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/libs/underscore-min.js"></script>
+	<script src="js/libs/backbone-min.js"></script>
+	<script src="js/libs/handlebars.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&key="></script>
+	<script src="js/libs/maplabel-compiled.js"></script>
+	<script src="js/app.js"></script>
+
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+</head>
+<body>
+	<header>
+		<p class="left" style="padding-top: 5px;">
+			<a href="">LSPD Mapa Interativo</a>
+		</p>
+		<ul class="right">
+			<div class="dropdown">
+				<a href="" target="_blank"><button class="btn btn-primary">Rotas</button></a>
+				<button class="btn btn-primary" id="toggleruler" onclick="toggleRuler();$(this).css('display', 'none');">Medir Distância</button>
+				<button class="btn btn-primary" id="createzone" onclick="printArray()">Adicionar Pin</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Tipo de Mapa
+				</button>
+				<div class="dropdown-menu" aria-labelledby="ddmenu">
+					<a href="#" id="Atlas"           class="dropdown-item active" onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Atlas');           $(this).addClass('active');">Maps</a>
+					<a href="#" id="Satellite"       class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Satellite');       $(this).addClass('active');">Satelite</a>
+					<a href="#" id="Road"            class="dropdown-item"        onclick="$('#' + map.getMapTypeId()).removeClass('active'); map.setMapTypeId('Road');            $(this).addClass('active');">Estrada</a>
+				</div>
+			</div>
+
+		</ul>
+	</header>
+
+	<div id="map" style="background:rgb(43, 164, 210);"></div>
+
+	<script type="x/template" id="sectionTemplate">
+		{{#each sections as | section |}}
+			<section class="type">
+				<h3>{{name}}</h3>
+				<ul>
+					{{#each categories}}
+						<li><label><input type="checkbox" {{#if enabled}}checked{{/if}} value="{{name}}" data-section="{{section.name}}"> <img src="icons/{{icon}}"> {{name}}</label> <a href="#" class="details" data-section="{{section.name}}" data-name="{{name}}"><i class="icon-chevron-sign-right"></i></a></li>
+					{{/each}}					
+					{{#ifEquals name "General"}}
+						<li><label><input type="checkbox" {{#if enabled}}checked{{/if}} value="labels"> <img src="icons/icone/icone_Legenda.png"> Texto</label> <a href="#" class="details" data-name="Labels"></a></li>
+					{{/ifEquals}}
+
+				</ul>
+			</section>
+		{{/each}}
+	</script>
+
+	<script type="x/template" id="categoryDetailsTemplate">
+		<section class="type">
+			<h3><a href="#" class="back details"><i class="icon-chevron-sign-left"></i></a> {{category}}</h3>
+			<ul class="listview">
+				{{#with this as | root |}}
+				{{#each locations}}
+					<li data-section="{{root.section}}" data-name="{{root.category}}"><div style="height:20px;width:20px;background-color:#{{fillcolor}};border: 3px solid #{{strokecolor}}; display:inline-block;margin-right:10px;"></div><label>{{title}}</label></li>
+				{{/each}}
+				{{/with}}
+			</ul>
+		</section>
+	</script>
+
+	<script type="x/template" id="markerPopupTemplate2">
+		<div id="info-window" style="max-width:420px;">
+			<div class="scrollable">
+				<span class="header">
+					<h3>{{title}}</h3>
+				</span>
+				<div id="info-body">
+					{{#if notes}}
+						<br>
+						<p class="notes">{{notes}}</p>
+					{{/if}}
+					{{#if video}}
+						<div class="video-{{id}}">
+							<br>
+							<h4>Video</h4>
+							<div class="youtubewrapper">
+								<iframe width="100%" src="//www.youtube.com/embed/{{video.yt_id}}?theme=light&amp;autoplay=0&amp;autohide=1&amp;iv_load_policy=3&amp;rel=0&amp;showinfo=0&amp;loop=1{{#if video.start}}&amp;start={{timestampToSeconds video.start}}{{/if}}{{#if video.end}}&amp;end={{timestampToSeconds video.end}}{{/if}}" frameborder="0" allowfullscreen></iframe>
+							</div>
+							{{#if video.yt_user_link}}
+								<p>
+									<a href="//www.youtube.com/{{video.yt_user_link}}" style="color:#222;font-size:.8em;float:right;" target="_blank">
+										Video by {{video.yt_user_display}}
+									</a>
+								</p>
+							{{/if}}
+						</div>
+					{{/if}}
+					{{#if images}}
+						<br>
+				 		<h4>Fotos</h4>
+					{{/if}}
+					{{#each images}}
+						<div class="images-{{id}}">
+						 	<span>{{headline}}</span>
+							 <br>
+						 	<img src="{{url}}" class="image-{{id}}">
+						</div>
+						<br>
+				 	{{/each}}
+					{{#if wiki_link}}
+						<hr>
+						<a target="_blank" href="{{wiki_link}}"> Link externo: {{title}}! (Click) </a>
+					{{/if}}
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<div id="typeDetails" class="types"></div>
+
+	<div id="types" class="types"></div>
+</body>
+</html>
