@@ -211,6 +211,12 @@ $(function() {
 					enabled: false,
 					url: 'data/13.Area_Patrulha.json',
 				}),
+				new CategoryModel({
+					name: 'Rota Chase',
+					icon: 'icone/icone_car_police.png',
+					enabled: false,
+					url: 'data/14.Rota_Chase.json',
+				}),
 			]),
 		}),
 	]);
