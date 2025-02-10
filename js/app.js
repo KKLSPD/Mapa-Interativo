@@ -211,31 +211,15 @@ $(function() {
 					enabled: false,
 					url: 'data/13.Area_Patrulha.json',
 				}),
+				new CategoryModel({
+					name: 'Rota Chase',
+					icon: 'icone/icone_car_police.png',
+					enabled: false,
+					url: 'data/14.Rota_Chase.json',
+				}),
 			]),
 		}),
 	]);
-
-	function createRulerLine(map, rota) {
-		const rulerpoly = new google.maps.Polyline({
-			path: rota.latlngarray,
-			strokeColor: rota.strokecolor,
-			strokeOpacity: 0.7,
-			strokeWeight: rota.linewidth,
-			map: map
-		});
-	
-		new SectionModel({
-			name: 'Área',
-			categories: new CategoriesCollection([
-				new CategoryModel({
-					name: 'Rota Chase',
-					icon: 'icone/icone_arma.png',
-					enabled: false,
-					url: 'data/14.Rota_Chase.json',
-				})
-			])
-		});
-	}
 	
 	var showingLabels;
 	var CategoriesView = Backbone.View.extend({
@@ -678,15 +662,7 @@ function addruler(map) {
 	ruler2.setVisible(true);
 	rulerpoly.setVisible(true);
 }
-function createRulerLine(map, rota) {
-    const rulerpoly = new google.maps.Polyline({
-        path: rota.latlngarray,
-        strokeColor: rota.strokecolor,
-        strokeOpacity: 0.7,
-        strokeWeight: rota.linewidth,
-        map: map
-    });
-}
+
 function distance(lat1, lon1, lat2, lon2) {
 	var um = 'km'; // km | ft (choose the constant)
 	var R = 1800;
