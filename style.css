@@ -133,7 +133,7 @@ header a.active {
 
 .types .type h3 {
 	font-size: 0.9em;
-	padding: 3px 10px;
+	padding: 3px 85px;
 	background: #6c757d;
 	cursor: pointer;
 }
@@ -150,7 +150,7 @@ header a.active {
 .types .type li {
 	margin-bottom: 3px;
 	overflow: hidden;
-	min-width: 160px;
+	min-width: 180px;
 	max-width: 300px;
 	white-space: nowrap;
 }

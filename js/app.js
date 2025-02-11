@@ -219,7 +219,26 @@ $(function() {
 				}),
 			]),
 		}),
+		new SectionModel({
+			name: 'Rotas',
+			categories: new CategoriesCollection([
+				new CategoryModel({
+					name: 'Desmanches',
+					icon: 'icone/icone_arma.png',
+					enabled: false,
+					url: 'data/14.Rota_Chase',
+				}),
+				new CategoryModel({
+					name: 'Rotas Chase',
+					icon: 'icone/icone_arma.png',
+					enabled: false,
+					url: 'data/14.Rota_Chase',
+				}),
+			]),
+		}),
+		
 	]);
+	
 	
 	var showingLabels;
 	var CategoriesView = Backbone.View.extend({
