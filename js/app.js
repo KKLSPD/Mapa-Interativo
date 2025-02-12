@@ -211,12 +211,6 @@ $(function() {
 					enabled: false,
 					url: 'data/13.Area_Patrulha.json',
 				}),
-				new CategoryModel({
-					name: 'Rota Chase',
-					icon: 'icone/icone_car_police.png',
-					enabled: false,
-					url: 'data/14.Rota_Chase.json',
-				}),
 			]),
 		}),
 		new SectionModel({
@@ -388,8 +382,8 @@ $(function() {
 			this.mapType = 'Atlas';
 			this.mapDetails = {
 				'Atlas':     '#0FA8D2',
+				'Road':      '#1862AD',
 				'Satellite': '#143D6B',
-				'Road':      '#1862AD'
 			};
 
 			this.mapOptions = {
