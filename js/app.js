@@ -389,7 +389,7 @@ $(function() {
 			this.mapDetails = {
 				'Atlas':     '#0FA8D2',
 				'Satellite': '#143D6B',
-				'Road':      '#1862AD',
+				'Road':      '#1862AD'
 			};
 
 			this.mapOptions = {
