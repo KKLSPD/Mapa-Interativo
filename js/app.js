@@ -127,7 +127,7 @@ $(function() {
 	});
 	var sections = new SectionCollection([
 		new SectionModel({
-			name: 'General',
+			name: 'Geral',
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Bairro',
@@ -171,6 +171,12 @@ $(function() {
 					url: 'data/07.Bancos.json',
 				}),
 				new CategoryModel({
+					name: 'Loja',
+					icon: 'icone/icone_Loja.png',
+					enabled: false,
+					url: 'data/07.Loja.json',
+				}),
+				new CategoryModel({
 					name: 'Policia',
 					icon: 'icone/icone_police_station.png',
 					enabled: false,
@@ -194,12 +200,6 @@ $(function() {
 			name: 'Área',
 			categories: new CategoriesCollection([
 				new CategoryModel({
-					name: 'Área de Gangue',
-					icon: 'icone/icone_arma.png',
-					enabled: false,
-					url: 'data/10.Area_Gangue.json',
-				}),
-				new CategoryModel({
 					name: 'Área do Banco',
 					icon: 'icone/icone_office_for_sale.png',
 					enabled: false,
@@ -218,7 +218,7 @@ $(function() {
 			categories: new CategoriesCollection([
 				new CategoryModel({
 					name: 'Desmanches',
-					icon: 'icone/icone_arma.png',
+					icon: 'icone/icone_desmanche.png',
 					enabled: false,
 					url: 'data/14.Rota_Chase',
 				}),

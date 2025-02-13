@@ -1,0 +1,116 @@
+[
+	{
+		"title": "Banco Fleeca - Rota 68",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": 16.073, "lng": 18.341},
+			{"lat": 16.073, "lng": 20.179},
+			{"lat": 14.999, "lng": 20.179},
+			{"lat": 14.999, "lng": 18.341}
+		]
+	},
+	{
+		"title": "Banco Fleeca - Great Ocean",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -45.449, "lng": -101.214},
+			{"lat": -45.491, "lng": -100.449},
+			{"lat": -46.043, "lng": -100.531},
+			{"lat": -45.983, "lng": -101.288}
+		]
+	},
+	{
+		"title": "Banco Fleeca - Bennys",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -53.246, "lng": -26.209},
+			{"lat": -53.949, "lng": -22.806},
+			{"lat": -54.757, "lng": -23.103},
+			{"lat": -54.015, "lng": -26.608},
+			{"lat": -53.801, "lng": -26.399},
+			{"lat": -53.514, "lng": -26.245}
+		]
+	},
+	{
+		"title": "Banco Fleeca - Chaves",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -57.805, "lng": -8.393},
+			{"lat": -57.012, "lng": -7.943},
+			{"lat": -57.547, "lng": -5.185},
+			{"lat": -58.334, "lng": -5.746}
+		]
+	},
+	{
+		"title": "Banco Fleeca - Praça",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -67.513, "lng": -10.858},
+			{"lat": -67.664, "lng": -9.726},
+			{"lat": -67.930, "lng": -10.045},
+			{"lat": -67.789, "lng": -11.231}
+		]
+	},
+	{
+		"title": "Banco de Paleto ",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": 77.001, "lng": -19.252},
+			{"lat": 77.257, "lng": -18.059},
+			{"lat": 77.015, "lng": -17.055},
+			{"lat": 76.758, "lng": -18.198}
+		]
+	},
+	{
+		"title": "Banco Life Invader ",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -58.358, "lng": -50.716},
+			{"lat": -58.690, "lng": -50.397},
+			{"lat": -58.409, "lng": -49.397},
+			{"lat": -58.097, "lng": -49.639}
+		]
+	},
+	{
+		"title": "Banco Central",
+		"notes": "",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "00DA7D",
+		"fillcolor": "00CADA",
+		"latlngarray": [
+			{"lat": -47.911, "lng": -7.819},
+			{"lat": -48.286, "lng": -6.359},
+			{"lat": -49.684, "lng": -7.149},
+			{"lat": -49.335, "lng": -8.622}
+		]
+	}
+]
