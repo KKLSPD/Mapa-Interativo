@@ -191,7 +191,9 @@
 		"video": {
 			"yt_id": "P6hhjIfGjsY",
 			"yt_user_display": "sahp_kamikaze",
-			"yt_user_link": "c/sahp_kamikaze"
+			"yt_user_link": "c/sahp_kamikaze",
+			"start": "0:33",
+      		"end": "0:48"
 		}
 	},
 	{
