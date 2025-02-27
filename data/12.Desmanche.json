@@ -1,12 +1,29 @@
-{
-    "title": "Burger Shot",
-    "strokecolor": "FF0000",
-    "notes": "aaaaaaaaaaaaaa",
-    "linewidth": 8,
-    "type": "line",
-    "latlngarray": [
-        {"lat": -66.046, "lng": -50.898},
-        {"lat": -65.492, "lng": -48.888},
-        {"lat": -66.322, "lng": -47.603}
-    ]
-}
+[
+    {
+        "title": "Desmanche Bennys Antiga",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "0000FF",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/desmanche.png",
+        "iconWidth": 25,
+        "iconHeight": 25,
+        "latlngarray": [
+            {"lat": -71.223, "lng": -21.594}
+            
+        ]
+    },   {
+        "title": "Desmanche da Reciclagem",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "0000FF",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/desmanche.png",
+        "iconWidth": 25,
+        "iconHeight": 25,
+        "latlngarray": [
+            {"lat": -73.999, "lng": -28.250}
+        ]
+        }]

@@ -257,6 +257,12 @@ $(function() {
 					enabled: false,
 					url: 'data/14.Rota_Chase.json',
 				}),
+				new CategoryModel({
+					name: 'Rota Desmanche',
+					icon: 'icone/icone_desmanche.png',
+					enabled: false,
+					url: 'data/16.Rota Desmanche.json',
+				}),
 			]),
 		}),
 		
