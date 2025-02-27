@@ -7,8 +7,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": 16.073, "lng": 18.341}
         ]
@@ -21,8 +21,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -45.449, "lng": -101.214}
         ]
@@ -35,8 +35,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -53.246, "lng": -26.209}
         ]
@@ -49,8 +49,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -57.805, "lng": -8.393}
         ]
@@ -63,8 +63,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -67.513, "lng": -10.858}
         ]
@@ -77,8 +77,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": 77.001, "lng": -19.252}
         ]
@@ -91,8 +91,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -58.358, "lng": -50.716}
         ]
@@ -105,8 +105,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/banco.png",
-        "iconWidth": 35,
-        "iconHeight": 35,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -47.911, "lng": -7.819}
         ]
