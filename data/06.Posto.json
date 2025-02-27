@@ -1,239 +1,187 @@
 [
-	{
-		"title": "Posto de Gasolina - Grove Street ",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -74.314, "lng": -17.559},
-			{"lat": -74.204, "lng": -16.515},
-			{"lat": -74.323, "lng": -15.944},
-			{"lat": -74.559, "lng": -16.768},
-			{"lat": -74.361, "lng": -17.611}
-		]
-	},
-	{
-		"title": "Posto de Gasolina - Banco Central",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -47.199, "lng": 3.419},
-			{"lat": -48.102, "lng": 4.507},
-			{"lat": -48.909, "lng": 3.914},
-			{"lat": -48.504, "lng": 1.914},
-			{"lat": -47.623, "lng": 2.475}
-		]
-	},
-	{
-		"title": "Posto de Gasolina - Great Ocean",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -58.703, "lng": -74.577},
-			{"lat": -58.029, "lng": -74.478},
-			{"lat": -57.942, "lng": -74.643},
-			{"lat": -57.770, "lng": -76.898},
-			{"lat": -57.968, "lng": -77.030},
-			{"lat": -58.125, "lng": -77.041},
-			{"lat": -58.420, "lng": -76.887},
-			{"lat": -58.595, "lng": -76.603},
-			{"lat": -58.970, "lng": -75.291}
-		]
-	},
-	{
-		"title": "Posto do China - Little Seoul",
-		"notes": "A very popular gas station located in Little Seoul.",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -66.216, "lng": -36.488},
-			{"lat": -66.216, "lng": -35.123},
-			{"lat": -66.615, "lng": -35.123},
-			{"lat": -66.634, "lng": -35.624},
-			{"lat": -66.643, "lng": -35.997},
-			{"lat": -66.656, "lng": -36.359},
-			{"lat": -66.634, "lng": -36.514},
-			{"lat": -66.573, "lng": -36.623},
-			{"lat": -66.451, "lng": -36.634},
-			{"lat": -66.309, "lng": -36.536}
-		]
-	},
-	{
-		"title": "Posto do Mirror Park",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -58.109, "lng": 18.361},
-			{"lat": -58.009, "lng": 19.623},
-			{"lat": -58.277, "lng": 19.816},
-			{"lat": -58.599, "lng": 19.861},
-			{"lat": -58.856, "lng": 19.794},
-			{"lat": -58.689, "lng": 18.475}
-		]
-	},
-	{
-		"title": "Posto do Gasolina INNOCENSE",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -71.672, "lng": -25.062},
-			{"lat": -72.183, "lng": -25.084},
-			{"lat": -72.156, "lng": -23.173},
-			{"lat": -71.665, "lng": -23.173}
-		]
-	},
-	{
-		"title": "Posto do Gasolina Davis",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -72.657, "lng": -10.717},
-			{"lat": -72.439, "lng": -10.079},
-			{"lat": -72.791, "lng": -9.102},
-			{"lat": -72.894, "lng": -9.849}
-		]
-	},
-	{
-		"title": "Posto do Gasolina Vespucci",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -67.408, "lng": 8.214},
-			{"lat": -67.357, "lng": 9.423},
-			{"lat": -67.884, "lng": 9.401},
-			{"lat": -67.884, "lng": 8.258}
-		]
-	},
-	{
-		"title": "Posto do Gasolina El Rancho",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -71.082, "lng": 19.656},
-			{"lat": -71.484, "lng": 19.624},
-			{"lat": -71.484, "lng": 20.920},
-			{"lat": -71.082, "lng": 20.469}
-		]
-	},
-	{
-		"title": "Posto do Gasolina do Rosa",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -57.498, "lng": -57.334},
-			{"lat": -56.939, "lng": -56.169},
-			{"lat": -57.468, "lng": -55.345},
-			{"lat": -57.990, "lng": -56.543}
-		]
-	},
-	{
-		"title": "Posto de Paleto Bay",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": 77.852, "lng": -10.207},
-			{"lat": 77.879, "lng": -9.372},
-			{"lat": 77.791, "lng": -9.284},
-			{"lat": 77.756, "lng": -10.091}
-		]
-	},
-	{
-		"title": "Posto da Patricia",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -36.946, "lng": -68.484},
-			{"lat": -36.232, "lng": -67.429},
-			{"lat": -36.108, "lng": -67.055},
-			{"lat": -36.126, "lng": -66.583},
-			{"lat": -36.249, "lng": -66.242},
-			{"lat": -36.382, "lng": -66.012},
-			{"lat": -37.139, "lng": -67.132},
-			{"lat": -37.567, "lng": -67.824}
-		]
-	},
-	{
-		"title": "Posto Senora Freeway",
-		"notes": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": 31.578, "lng": 62.236},
-			{"lat": 30.925, "lng": 63.579},
-			{"lat": 29.733, "lng": 62.775},
-			{"lat": 30.463, "lng": 61.511}
-		]
-	},
-	{
-		"title": "Posto do Vanilla",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": -69.698, "lng": -8.042},
-			{"lat": -69.694, "lng": -6.545},
-			{"lat": -70.249, "lng": -6.545},
-			{"lat": -70.258, "lng": -8.175},
-			{"lat": -70.029, "lng": -8.042}
-		]
-	},
-	{
-		"title": "Posto de Sandy Shores",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": 42.016, "lng": 43.872},
-			{"lat": 41.565, "lng": 42.839},
-			{"lat": 42.358, "lng": 42.235},
-			{"lat": 42.827, "lng": 43.246}
-		]
-	},
-	{
-		"title": "Posto de Grapeseed",
-		"notes": "",
-		"wiki_link": "",
-		"order": 1,
-		"strokecolor": "00DA7D",
-		"fillcolor": "00CADA",
-		"latlngarray": [
-			{"lat": 61.684, "lng": 34.233},
-			{"lat": 62.154, "lng": 34.958},
-			{"lat": 62.425, "lng": 34.178},
-			{"lat": 62.262, "lng": 33.684},
-			{"lat": 62.072, "lng": 33.442},
-			{"lat": 61.891, "lng": 33.387}
-		]
-	}
+    {
+        "title": "Posto de Gasolina - Grove Street",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "FF0000",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -74.344, "lng": -16.691}
+        ]
+    },
+    {
+        "title": "Posto de Gasolina - Banco Central",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "FF0000",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -46.431, "lng": -6.438}
+        ]
+    },
+    {
+        "title": "Posto do Gasolina INNOCENSE",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -71.672, "lng": -25.062}
+        ]
+    },
+    {
+        "title": "Posto do Gasolina Davis",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -72.657, "lng": -10.717}
+        ]
+    },
+    {
+        "title": "Posto do Gasolina Vespucci",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -67.408, "lng": 8.214}
+        ]
+    },
+    {
+        "title": "Posto do Gasolina El Rancho",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -71.082, "lng": 19.656}
+        ]
+    },
+    {
+        "title": "Posto do Gasolina do Rosa",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -57.498, "lng": -57.334}
+        ]
+    },
+    {
+        "title": "Posto de Paleto Bay",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": 77.852, "lng": -10.207}
+        ]
+    },
+    {
+        "title": "Posto da Patricia",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -36.946, "lng": -68.484}
+        ]
+    },
+    {
+        "title": "Posto Senora Freeway",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": 31.578, "lng": 62.236}
+        ]
+    },
+    {
+        "title": "Posto do Vanilla",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": -69.698, "lng": -8.042}
+          
+        ]
+    },
+    {
+        "title": "Posto de Sandy Shores",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": 42.016, "lng": 43.872}
+           
+        ]
+    },
+    {
+        "title": "Posto de Grapeseed",
+        "notes": "",
+        "wiki_link": "",
+        "strokecolor": "00DA7D",
+        "linewidth": 8,
+        "type": "point",
+        "iconUrl": "icons/icone/Posto.png",
+        "iconWidth": 20,
+        "iconHeight": 20,
+        "latlngarray": [
+            {"lat": 61.684, "lng": 34.233}
+            
+        ]
+    }
 ]
