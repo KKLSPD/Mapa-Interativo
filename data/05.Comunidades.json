@@ -16,21 +16,6 @@
 	},
 
 	{
-		"title": "",
-		"notes": "",
-		"wiki_link": "",
-		"strokecolor": "FF0000",
-		"linewidth": 8,
-		"type": "point",
-		"iconUrl": "icons/icone/families.png",
-		"iconWidth": 20,
-		"iconHeight": 20,
-		"latlngarray": [
-			{"lat": -66.046, "lng": -50.898}
-		]
-	},
-
-	{
 		"title": "Ballas",
 		"notes": "",
 		"wiki_link": "",
@@ -81,7 +66,7 @@
 		]
 	},
 	{
-		"title": "The Grove Street Families",
+		"title": "",
 		"notes": "",
 		"wiki_link": "",
 		"strokecolor": "FF0000",
@@ -95,7 +80,7 @@
 		]
 	},
 	{
-		"title": "Ballas",
+		"title": "",
 		"notes": "",
 		"wiki_link": "",
 		"strokecolor": "FF0000",
@@ -109,7 +94,7 @@
 		]
 	},
 	{
-		"title": "Los Vagos",
+		"title": "",
 		"notes": "",
 		"wiki_link": "",
 		"strokecolor": "FF0000",
@@ -123,7 +108,7 @@
 		]
 	},
 	{
-		"title": "Marabuntas",
+		"title": "",
 		"notes": "",
 		"wiki_link": "",
 		"strokecolor": "FF0000",

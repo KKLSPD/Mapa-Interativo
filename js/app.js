@@ -245,12 +245,7 @@ $(function() {
 		new SectionModel({
 			name: 'Rotas',
 			categories: new CategoriesCollection([
-				new CategoryModel({
-					name: 'Desmanches',
-					icon: 'icone/icone_desmanche.png',
-					enabled: false,
-					url: 'data/12.Desmanche.json',
-				}),
+				
 				new CategoryModel({
 					name: 'Rotas Chase',
 					icon: 'icone/icone_arma.png',
