@@ -1,0 +1,12 @@
+{
+    "title": "Burger Shot",
+    "strokecolor": "FF0000",
+    "notes": "aaaaaaaaaaaaaa",
+    "linewidth": 8,
+    "type": "line",
+    "latlngarray": [
+        {"lat": -66.046, "lng": -50.898},
+        {"lat": -65.492, "lng": -48.888},
+        {"lat": -66.322, "lng": -47.603}
+    ]
+}

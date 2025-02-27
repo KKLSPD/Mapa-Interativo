@@ -28,22 +28,51 @@ $(function() {
 	var LocationModel = Backbone.Model.extend({
 		initialize: function() {
 			var polyCoords = this.get('latlngarray');
-
-			var marker = new google.maps.Polygon({
-				paths: polyCoords,
-				strokeColor: '#' + this.get('strokecolor'),
-				strokeOpacity: 0.8,
-				strokeWeight: 2,
-				fillColor: '#' + this.get('fillcolor'),
-				fillOpacity: 0.35,
-				zIndex: this.get('order') || 0,
-			});
-
+	
+			var marker;
+			var type = this.get('type');
+			if (type === 'line') {
+				marker = new google.maps.Polyline({
+					path: polyCoords,
+					strokeColor: '#' + this.get('strokecolor'),
+					strokeOpacity: 0.8,
+					strokeWeight: this.get('linewidth') || 2,
+					zIndex: this.get('order') || 0,
+				});
+			} else if (type === 'point') {
+				var iconUrl = this.get('iconUrl');
+				marker = new google.maps.Marker({
+					position: polyCoords[0],
+					title: this.get('title'),
+					icon: iconUrl ? {
+						url: iconUrl,
+						scaledSize: new google.maps.Size(this.get('iconWidth') || 32, this.get('iconHeight') || 32)
+					} : {
+						path: google.maps.SymbolPath.CIRCLE,
+						scale: this.get('linewidth') || 8,
+						fillColor: '#' + this.get('strokecolor'),
+						fillOpacity: 1,
+						strokeWeight: 1,
+					},
+					zIndex: this.get('order') || 0,
+				});
+			} else {
+				marker = new google.maps.Polygon({
+					paths: polyCoords,
+					strokeColor: '#' + this.get('strokecolor'),
+					strokeOpacity: 0.8,
+					strokeWeight: 2,
+					fillColor: '#' + this.get('fillcolor'),
+					fillOpacity: 0.35,
+					zIndex: this.get('order') || 0,
+				});
+			}
+	
 			var bounds = new google.maps.LatLngBounds();
 			polyCoords.forEach(function(element, index) {
 				bounds.extend(element);
 			});
-
+	
 			var mapLabel = new MapLabel({
 				position: bounds.getCenter(),
 				text: this.get('title'),
@@ -52,18 +81,18 @@ $(function() {
 				fontColor: '#' + this.get('fillcolor'),
 				zIndex: 10000,
 			});
-
+	
 			_.bindAll(this, 'markerClicked');
 			google.maps.event.addListener(marker, 'click', this.markerClicked);
 			this.set({ marker: marker, label: mapLabel });
 		},
-
+	
 		markerClicked: function() {
 			Vent.trigger('location:clicked', this);
 		},
-
+	
 		removeHighlight: function() {},
-
+	
 		highlightMarker: function() {
 			if (currentMarker == this) {
 				Vent.trigger('location:clicked', this);
@@ -174,7 +203,7 @@ $(function() {
 					name: 'Loja',
 					icon: 'icone/icone_Loja.png',
 					enabled: false,
-					url: 'data/07.Loja.json',
+					url: 'data/15.Loja.json',
 				}),
 				new CategoryModel({
 					name: 'Policia',
@@ -192,7 +221,7 @@ $(function() {
 					name: 'Desmanche',
 					icon: 'icone/icone_desmanche.png',
 					enabled: false,
-					url: 'data/11.Desmanche.json',
+					url: 'data/12.Desmanche.json',
 				}),
 			]),
 		}),
@@ -220,13 +249,13 @@ $(function() {
 					name: 'Desmanches',
 					icon: 'icone/icone_desmanche.png',
 					enabled: false,
-					url: 'data/14.Rota_Chase',
+					url: 'data/12.Desmanche.json',
 				}),
 				new CategoryModel({
 					name: 'Rotas Chase',
 					icon: 'icone/icone_arma.png',
 					enabled: false,
-					url: 'data/14.Rota_Chase',
+					url: 'data/14.Rota_Chase.json',
 				}),
 			]),
 		}),
@@ -580,35 +609,32 @@ $(function() {
 			var infoWindow = new google.maps.InfoWindow({
 				content: this.popupTemplate(location.toJSON()),
 			});
-
+		
 			infoWindow.setOptions({
 				maxHeight: 400,
 			});
-
+		
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 				infoWindow.setOptions({
 					maxWidth: 180,
 					maxHeight: 300,
 				});
 			}
+		
 			var bounds = new google.maps.LatLngBounds();
-			location
-				.get('marker')
-				.getPath()
-				.forEach(function(element, index) {
+			if (location.get('type') === 'point') {
+				bounds.extend(location.get('marker').getPosition());
+			} else {
+				location.get('marker').getPath().forEach(function(element, index) {
 					bounds.extend(element);
 				});
+			}
+		
 			infoWindow.setPosition(bounds.getCenter());
 			infoWindow.open(this.map);
-
+		
 			this.closePopupLocation();
 			this.currentInfoWindow = infoWindow;
-		},
-
-		closePopupLocation: function() {
-			if (this.currentInfoWindow) {
-				this.currentInfoWindow.close();
-			}
 		},
 	});
 

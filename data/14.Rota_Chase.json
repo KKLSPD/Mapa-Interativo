@@ -1,11 +1,14 @@
 {
-    "title": "Burger Shot",
-    "strokecolor": "#E759E1",
-    "linewidth": 16,
+    "title": "Fort Zancudo",
+    "notes": "Construída durante a Segunda Guerra Mundial, Fort Zancudo começou como um campo de treinamento para pilotos e engenheiros militares. Com o tempo, a base expandiu suas operações, tornando-se um importante centro para defesa aérea, tecnologia de vigilância e testes de aeronaves experimentais.",
+    "wiki_link": "",
+    "strokecolor": "FF0000",
+    "linewidth": 8,
+    "type": "point",
+    "iconUrl": "icons/icone/icone_acsr_race_hotring.png",
+    "iconWidth": 20,
+    "iconHeight": 20,
     "latlngarray": [
-        {"lat": -66.046, "lng": -50.898},
-        {"lat": -65.492, "lng": -48.888},
-        {"lat": -66.322, "lng": -47.603}
-      
+        {"lat": -66.046, "lng": -50.898}
     ]
 }
