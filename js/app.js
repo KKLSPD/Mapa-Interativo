@@ -201,7 +201,7 @@ $(function() {
 				}),
 				new CategoryModel({
 					name: 'Loja',
-					icon: 'icone/icone_Loja.png',
+					icon: 'icone/icone_heist.png',
 					enabled: false,
 					url: 'data/15.Loja.json',
 				}),
