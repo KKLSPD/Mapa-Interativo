@@ -164,18 +164,6 @@ $(function() {
 					enabled: false,
 					url: 'data/01.Bairro.json',
 				}),
-				new CategoryModel({
-					name: 'Mecânica',
-					icon: 'icone/icone_acsr_race_hotring.png',
-					enabled: false,
-					url: 'data/02.Mecanica.json',
-				}),
-				new CategoryModel({
-					name: 'Hospital',
-					icon: 'icone/icone_hospital.png',
-					enabled: false,
-					url: 'data/04.Hospital.json',
-				}),
 			]),
 		}),
 		new SectionModel({
@@ -187,11 +175,23 @@ $(function() {
 					enabled: false,
 					url: 'data/05.Comunidades.json',
 				}),
-				new CategoryModel({
-					name: 'Posto de Gasolina',
-					icon: 'icone/icone_posto.png',
+					new CategoryModel({
+					name: 'Policia',
+					icon: 'icone/icone_police_station.png',
 					enabled: false,
-					url: 'data/06.Posto.json',
+					url: 'data/08.Policia.json',
+				}),
+				new CategoryModel({
+					name: 'Hospital',
+					icon: 'icone/icone_hospital.png',
+					enabled: false,
+					url: 'data/04.Hospital.json',
+				}),
+					new CategoryModel({
+					name: 'Mecânica',
+					icon: 'icone/icone_acsr_race_hotring.png',
+					enabled: false,
+					url: 'data/02.Mecanica.json',
 				}),
 				new CategoryModel({
 					name: 'Banco',
@@ -206,19 +206,19 @@ $(function() {
 					url: 'data/15.Loja.json',
 				}),
 				new CategoryModel({
-					name: 'Policia',
-					icon: 'icone/icone_police_station.png',
-					enabled: false,
-					url: 'data/08.Policia.json',
-				}),
-				new CategoryModel({
 					name: 'Restaurantes',
 					icon: 'icone/icone_bar.png',
 					enabled: false,
 					url: 'data/09.Restaurantes.json',
 				}),
+					new CategoryModel({
+					name: 'Posto de Gasolina',
+					icon: 'icone/icone_posto.png',
+					enabled: false,
+					url: 'data/06.Posto.json',
+				}),
 				new CategoryModel({
-					name: 'Desmanche',
+					name: 'Desmanches',
 					icon: 'icone/icone_desmanche.png',
 					enabled: false,
 					url: 'data/12.Desmanche.json',

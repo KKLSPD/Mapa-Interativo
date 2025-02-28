@@ -7,8 +7,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -66.046, "lng": -50.898}
         ]
@@ -21,8 +21,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": 26.250, "lng": 42.549}
         ]
@@ -35,8 +35,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -72.058, "lng": -3.382}
         ]
@@ -49,8 +49,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -66.759, "lng": -33.115}
         ]
@@ -63,8 +63,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -47.178, "lng": -12.779}
         ]
@@ -77,8 +77,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -50.986, "lng": 12.406}
         ]
@@ -91,8 +91,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -67.410, "lng": -11.613}
         ]
@@ -105,8 +105,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": -46.795, "lng": -30.526}
         ]
@@ -119,8 +119,8 @@
         "linewidth": 8,
         "type": "point",
         "iconUrl": "icons/icone/hamb.png",
-        "iconWidth": 20,
-        "iconHeight": 20,
+        "iconWidth": 25,
+        "iconHeight": 25,
         "latlngarray": [
             {"lat": 75.459, "lng": -23.708}
         ]

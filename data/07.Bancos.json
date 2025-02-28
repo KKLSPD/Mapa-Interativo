@@ -10,7 +10,7 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": 16.073, "lng": 18.341}
+            {"lat": 15.198, "lng": 19.396}
         ]
     },
     {
@@ -24,7 +24,9 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -45.449, "lng": -101.214}
+            {"lat": -43.980, "lng": -100.884}
+
+
         ]
     },
     {
@@ -38,7 +40,7 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -53.246, "lng": -26.209}
+            {"lat": -53.682, "lng": -24.552}
         ]
     },
     {
@@ -52,7 +54,7 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -57.805, "lng": -8.393}
+            {"lat": -57.411, "lng": -5.938}
         ]
     },
     {
@@ -66,7 +68,9 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -67.513, "lng": -10.858}
+            {"lat": -67.542, "lng": -10.633}
+
+
         ]
     },
     {
@@ -80,7 +84,7 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": 77.001, "lng": -19.252}
+            {"lat": 76.992, "lng": -18.205}
         ]
     },
     {
@@ -94,7 +98,9 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -58.358, "lng": -50.716}
+            {"lat": -58.344, "lng": -50.296}
+
+
         ]
     },
     {
@@ -108,7 +114,7 @@
         "iconWidth": 25,
         "iconHeight": 25,
         "latlngarray": [
-            {"lat": -47.911, "lng": -7.819}
+            {"lat": -49.259, "lng": -8.437}
         ]
     }
 ]

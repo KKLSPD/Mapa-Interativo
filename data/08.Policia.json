@@ -45,148 +45,132 @@
   
 },
 {
-	"title": "San Andreas Departament of Fish and Wildlife",
-	"notes": "",
-	"wiki_link": "",
-	"order": 0,
-	"strokecolor": "FF0000",
-	"fillcolor": "0000FF",
-	"latlngarray": [
-		{"lat": -37.314, "lng": -3.925},
-		{"lat": -36.954, "lng": -3.255},		
-		{"lat": -36.382, "lng": -3.002},
-		{"lat": -35.849, "lng": -2.881},
-		{"lat": -35.911, "lng": -4.562},
-		{"lat": -36.849, "lng": -5.002},
-		{"lat": -37.147, "lng": -4.463}
+		"title": "San Andreas Departament of Fish and Wildlife",
+		"notes": "",
+		"wiki_link": "",
+		"strokecolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"latlngarray": [
+		{"lat": -36.874, "lng": -3.956}
 	]
 },
 {
 		"title": "Departamento de Polícia de Vespucci",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -65.418, "lng": -48.595},
-			{"lat": -64.592, "lng": -46.244},
-			{"lat": -64.802, "lng": -45.643},
-			{"lat": -64.917, "lng": -45.028},
-			{"lat": -64.992, "lng": -44.478},
-			{"lat": -65.117, "lng": -43.939},
-			{"lat": -65.452, "lng": -44.423},
-			{"lat": -65.648, "lng": -44.786},
-			{"lat": -65.873, "lng": -45.632},
-			{"lat": -66.274, "lng": -47.214}
+		{"lat": -65.356, "lng": -47.248}
 		]
 	},
 	{
-		"title": "Departamento de Davis",
+		"title": "Departamento de Davis e Apreensão",
 		"notes": "",
-		"order": 0,
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -72.817, "lng": -4.484},
-			{"lat": -73.072, "lng": -5.121},
-			{"lat": -73.313, "lng": -4.099},
-			{"lat": -73.049, "lng": -3.275}
+		{"lat": -73.217, "lng": -3.571}
 		]
 	},
 	{
-		"title": "Apreensão",
-		"notes": "Onde os carros são apreendidos",
-		"order": 0,
+		"title": "La Mesa",
+		"notes": "",
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -73.320, "lng": -2.176},
-			{"lat": -73.082, "lng": -3.198},
-			{"lat": -73.308, "lng": -3.890},
-			{"lat": -73.552, "lng": -2.726}
-			
+			{"lat": -70.287, "lng": 9.127}
 		]
 	},
 	{
 		"title": "Departamento de Mission Row",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -66.807, "lng": -2.858},
-			{"lat": -66.789, "lng": -0.738},
-			{"lat": -67.452, "lng": -0.727},
-			{"lat": -67.549, "lng": -2.924}
-		]
+		{"lat": -67.120, "lng": -1.807}
+	]
 	},
 	{
 		"title": "San Andreas Departament of Fish and Wildlife ",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
-		"latlngarray": [
-			{"lat": 68.206, "lng": -38.682},
-			{"lat": 67.952, "lng": -38.572},
-			{"lat": 68.042, "lng": -37.451},
-			{"lat": 68.296, "lng": -37.517}
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"latlngarray": [	
+		{"lat": 68.218, "lng": -36.422}
 		]
 	},
 	{
 		"title": "Departamento de Vinewood ",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -51.850, "lng": 0.015},
-			{"lat": -53.187, "lng": -0.951},
-			{"lat": -53.658, "lng": 0.411},
-			{"lat": -54.073, "lng": 2.103},
-			{"lat": -52.910, "lng": 4.674}
+		{"lat": -53.673, "lng": 0.451}
 		]
 	},
 
 	{
 		"title": "Departamento de Paleto",
-		"notes": "Paleto Bay Sheriff's Office headquarters.",
-		"wiki_link": "",
-		"order": 0,
+		"notes": "",
+		"wiki_link": "aa",
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": 73.978, "lng": -29.654},
-			{"lat": 74.135, "lng": -27.689},
-			{"lat": 73.795, "lng": -27.251},
-			{"lat": 73.678, "lng": -27.119},
-			{"lat": 73.511, "lng": -27.129},
-			{"lat": 73.426, "lng": -27.196},
-			{"lat": 73.237, "lng": -27.404},
-			{"lat": 72.972, "lng": -28.085},
-			{"lat": 73.426, "lng": -29.919}
+		{"lat": 73.647, "lng": -27.629}
+
+
 		]
 	},
 	{
 		"title": "San Andreas Highway Patrol",
 		"notes": " kdakdakdakdakdakadadsda",
-		"wiki_link": "",
-		"order": 0,
+		"wiki_link": "aa",
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": 58.508, "lng": 65.067},
-			{"lat": 58.947, "lng": 69.571},
-			{"lat": 59.196, "lng": 69.604},
-			{"lat": 59.520, "lng": 68.000},
-			{"lat": 60.789, "lng": 66.825},
-			{"lat": 60.901, "lng": 66.385},
-			{"lat": 60.286, "lng": 64.452},
-			{"lat": 59.974, "lng": 64.331}
+		{"lat": 61.306, "lng": 65.423}
 		],
 		"video": {
 			"yt_id": "P6hhjIfGjsY",
@@ -200,14 +184,14 @@
 		"title": "Departamento de Sandy Shores",
 		"notes": "A Blaine County Sheriff's Office é o órgão local responsável pela manutenção da segurança em todo o Condado de Blaine. Os Sheriff Deputies têm o dever de servir e proteger as comunidades de Paleto Bay, Sandy Shores e Grapeseed.",
 		"wiki_link": "https://bcso.netlify.app/",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
-		"latlngarray": [
-			{"lat": 40.127, "lng": 37.054},
-			{"lat": 40.912, "lng": 38.801},
-			{"lat": 40.061, "lng": 39.428},
-			{"lat": 39.274, "lng": 37.692}
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"latlngarray": [	
+		{"lat": 40.034, "lng": 38.629}
 		],
 		
 			"images": [
@@ -223,14 +207,14 @@
 		"title": "Departamento de Justiça",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
 		"strokecolor": "FF0000",
-		"fillcolor": "0000FF",
-		"latlngarray": [
-			{"lat": -57.603, "lng": -31.136},
-			{"lat": -56.156, "lng": -32.674},
-			{"lat": -55.484, "lng": -29.930},
-			{"lat": -56.944, "lng": -28.304}
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/cop.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
+		"latlngarray": [	
+			{"lat": -56.322, "lng": -30.777}
 			
 		]
 	},{

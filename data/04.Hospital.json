@@ -3,89 +3,85 @@
 		"title": "Eclipse Medical Tower",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FF005A",
-		"fillcolor": "FF005A",
+		"strokecolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -46.054, "lng": -36.046},
-			{"lat": -46.108, "lng": -32.823},
-			{"lat": -47.751, "lng": -33.120},
-			{"lat": -47.417, "lng": -36.174}
+		{"lat": -47.743, "lng": -31.604}
 		]
 	},
 	{
 		"title": "Pillbox Hospital Center",
 		"notes": "",
 		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FF005A",
-		"fillcolor": "FF005A",
+		"strokecolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -61.606, "lng": -6.451},
-			{"lat": -61.663, "lng": -5.034},
-			{"lat": -61.715, "lng": -4.034},
-			{"lat": -61.731, "lng": -3.199},
-			{"lat": -62.405, "lng": -4.111},
-			{"lat": -62.765, "lng": -4.475},
-			{"lat": -62.371, "lng": -7.168}
+			{"lat": -62.195, "lng": -6.148}
 		]
 	},
 	{
 		"title": "Estação de Bombeiros - El Burro ",
 		"notes": "",
-		"wiki_ling": "",
-		"order": 0,
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -71.716, "lng": 21.124},
-			{"lat": -71.735, "lng": 18.447},
-			{"lat": -72.255, "lng": 18.458},
-			{"lat": -72.282, "lng": 21.732}
+		{"lat": -72.471, "lng": 18.459}
 		]
 	},
 	{
 		"title": "Mount Zonah Hospital",
 		"notes": "",
-		"wiki_ling": "",
-		"order": 0,
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": -57.306, "lng": -27.949},
-			{"lat": -59.224, "lng": -23.115},
-			{"lat": -58.834, "lng": -32.783},
-			{"lat": -58.548, "lng": -32.893}
-			
+		{"lat": -58.334, "lng": -27.864}
 		]
 	},
 	{
 		"title": "Paleto Medical Center",
 		"notes": "",
-		"wiki_ling": "",
-		"order": 0,
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": 75.725, "lng": -22.727},
-			{"lat": 75.949, "lng": -23.606},
-			{"lat": 76.372, "lng": -21.771},
-			{"lat": 76.137, "lng": -20.892}
+		{"lat": 76.064, "lng": -22.211}
 		]
 	},
 
 	{
 		"title": "Hospital de Sandy Shores",
 		"notes": "",
-		"wiki_ling": "",
-		"order": 0,
+		"wiki_link": "",
 		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"linewidth": 8,
+		"type": "point",
+		"iconUrl": "icons/icone/Hospital.png",
+		"iconWidth": 20,
+		"iconHeight": 20,
 		"latlngarray": [
-			{"lat": 39.974, "lng": 36.710},
-			{"lat": 39.143, "lng": 37.336},
-			{"lat": 38.114, "lng": 35.062},
-			{"lat": 39.024, "lng": 34.480}
+		{"lat": 38.714, "lng": 35.894}
 		]
 	}
 	
